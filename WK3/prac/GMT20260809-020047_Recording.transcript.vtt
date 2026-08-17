@@ -1,0 +1,646 @@
+WEBVTT
+
+1
+00:00:03.470 --> 00:00:20.100
+Matthew Mansour: Okay, well, hi everyone, and welcome to, obviously, my very short but important introduction to using some of the Atlassian products, and really today's focus for this one will be on JIRA. So…
+
+2
+00:00:20.100 --> 00:00:31.439
+Matthew Mansour: it's interesting how many support features JIRA has, and how many YouTube videos and step-by-step guides they have on
+
+3
+00:00:31.510 --> 00:00:47.160
+Matthew Mansour: Atlassian, who is the parent company, but as I said, some of the feedback was, oh, Matt didn't show us how to do it, and Module didn't show us, which we were quite surprised. So, in respect to the feedback from previous semester, I thought, effort, I'll do it.
+
+4
+00:00:47.160 --> 00:01:01.970
+Matthew Mansour: Even though maybe you just want to hear it from the horse's mouth, but even though there are probably better videos than I can do, but I'll get you kick-started. Yeah, we still haven't sorted out this room. We got closer to, in case someone saw my welcome video, we've still got, like, the colors organized, but the office is not finished.
+
+5
+00:01:01.990 --> 00:01:07.680
+Matthew Mansour: Anyway, never mind. Alright, so, first things first, thinking, oh, a bit dirty, huh?
+
+6
+00:01:07.710 --> 00:01:23.589
+Matthew Mansour: when you ask for the video, you're gonna have to suck it up and put it up with me. So, that's better. So, first things first, I started doing it, and I thought of recording, but I wasn't. So, what I've done, I'll just flick over to my other browser, is where… if you type in, you know, Atlassian.
+
+7
+00:01:23.610 --> 00:01:30.969
+Matthew Mansour: say, sign up for JIRA, or select JIRA. So in case, you know, someone's saying, oh, how did you get to there? I just clicked on Products and JIRA.
+
+8
+00:01:31.330 --> 00:01:33.630
+Matthew Mansour: Nothing too rocket science-y.
+
+9
+00:01:33.770 --> 00:01:35.800
+Matthew Mansour: And then I just said, get it for free.
+
+10
+00:01:36.590 --> 00:01:47.400
+Matthew Mansour: And then, put your email address. Our recommendation, because you're going to be working with each other, is to put your student email, so that you are confident that you can all access the information together.
+
+11
+00:01:48.190 --> 00:01:49.230
+Matthew Mansour: Perfect.
+
+12
+00:01:49.360 --> 00:01:54.260
+Matthew Mansour: I'm like a chef, I've already done it with one of the companies I work for.
+
+13
+00:01:54.590 --> 00:02:00.429
+Matthew Mansour: And I'm now up to the phase of… I think when you actually do put your email address in.
+
+14
+00:02:01.260 --> 00:02:18.140
+Matthew Mansour: Okay, it will then send you a message, like a multi-factor authentication, a message to your email, you use that code, and then you'll get up to the stage that I'm up to, which is here. So I'm just gonna put my name in, password.
+
+15
+00:02:21.090 --> 00:02:29.679
+Matthew Mansour: Which is, I love Chaz. I'm joking. Now someone's gonna try and do it, aren't you? So… click continue. Never.
+
+16
+00:02:30.600 --> 00:02:36.549
+Matthew Mansour: And let it do its magic, so it will set up. So I might just pause for now, so you don't have to wait for it.
+
+17
+00:02:38.160 --> 00:02:52.639
+Matthew Mansour: Then once it's done its magic, it'll say, hey, what are you? And what kind of, you know, work do you do? I guess you could select project management or software developer. You're definitely not going to choose marketing or anything. So let's just do software dev as a generic thing.
+
+18
+00:02:53.280 --> 00:03:01.840
+Matthew Mansour: And then it's gonna ask you, how does your team work? Look, you're probably going to say, yeah, we might track bugs, we work in Scrum.
+
+19
+00:03:01.990 --> 00:03:08.389
+Matthew Mansour: We run sprints, we manage tasks. Anyway, it's just trying to be AI-ish.
+
+20
+00:03:08.630 --> 00:03:20.260
+Matthew Mansour: Then it says, hey, name your space. So, realistically, only one team member has to do this, because you can invite everyone to your group, including, you have to, it's mandatory.
+
+21
+00:03:20.520 --> 00:03:22.349
+Matthew Mansour: So your TA,
+
+22
+00:03:22.350 --> 00:03:43.050
+Matthew Mansour: teaching assistant, just if, in the premise of me talking about stuff, if I say tutor, you know what I mean. Same, same, right? Same with SGTA and tutor, or tutorial, I mean the same thing. Small group teaching activity and tutorial, it's a financial thing, never mind with the university why they've done that, and anyone would argue me, they'll know what I'm talking about. So, let's just say…
+
+23
+00:03:43.050 --> 00:03:43.980
+Matthew Mansour: Matt's…
+
+24
+00:03:48.000 --> 00:04:04.630
+Matthew Mansour: test team, you name it, whatever you want, and you could create one as well. For the purposes of, the SGTA or tutorial, you're welcome to use your other email just as a muckaround, and then maybe use your work one for the actual product that you guys are going to start in week 7.
+
+25
+00:04:04.740 --> 00:04:08.569
+Matthew Mansour: So, I'm just gonna say get started.
+
+26
+00:04:09.310 --> 00:04:18.549
+Matthew Mansour: And then you get to here, and it goes, what type of task do you need? So, obviously, yes, we need a task. We probably will need a story,
+
+27
+00:04:19.209 --> 00:04:23.399
+Matthew Mansour: We probably won't need bugs, but let's just say for now we do.
+
+28
+00:04:23.580 --> 00:04:28.700
+Matthew Mansour: Broad piece of a functionality request for assistance. Now, let's just go again next.
+
+29
+00:04:29.000 --> 00:04:30.999
+Matthew Mansour: And then, how do you track it?
+
+30
+00:04:31.230 --> 00:04:36.900
+Matthew Mansour: Well, we're going to definitely do to-do, in progress, in review, and done.
+
+31
+00:04:37.110 --> 00:04:38.749
+Matthew Mansour: I will click next.
+
+32
+00:04:40.520 --> 00:04:43.119
+Matthew Mansour: And it's created my instance.
+
+33
+00:04:43.280 --> 00:04:46.529
+Matthew Mansour: Okay, and this is where you can invite others.
+
+34
+00:04:46.600 --> 00:05:03.379
+Matthew Mansour: So at this point, you have the choice of inviting all your teammates so that they can join this board, and that's what you'll do for the assessment starting in week 7. One of you will be, inverted commas, the scrum master, the boss, and then the others will be there. You can think of your tutor as the product owner.
+
+35
+00:05:03.500 --> 00:05:20.310
+Matthew Mansour: Again, if you've got no idea what I'm talking about, that's not my fault that you don't go back and listen to lectures from week 1, 2, and 3, or 1, 2, and 1, 2, because we're going to third week, but that's on you. So, I will not invite anyone for now, but I'm going to do that later.
+
+36
+00:05:22.650 --> 00:05:39.579
+Matthew Mansour: And it should do the magic. I don't know why it's got the option where you can… anyway. So, as you can see, it's created my Kaur One advisory, okay? And here we are. We're sort of looking at the basics of what it is. I'm obviously in the free account.
+
+37
+00:05:39.890 --> 00:05:56.270
+Matthew Mansour: And you will be as well. Don't click Premium Trial unless you want to pay for it, good luck. But other than that, this is free. As we said, it should be free for up to 5. I have read literature about 10 users, but we've found the sweet spot to be 5. 5 includes your tutor.
+
+38
+00:05:56.320 --> 00:06:03.720
+Matthew Mansour: So, you've got to invite them. So that means 4 members, plus 1 is 5, okay? 1 being your TA.
+
+39
+00:06:04.010 --> 00:06:19.329
+Matthew Mansour: Now, you'll see that there's a bit of information up at the top, okay? So you've got your backlog, and notice here it's talking about your Sprint 1. We'll talk more about that there. So you can sort of see in the grey, it says Start Sprint. There's nothing there, so how can you do anything?
+
+40
+00:06:19.330 --> 00:06:32.930
+Matthew Mansour: Down the bottom, you've got your backlog, where you'll put all of the things that you're going to do. The nice thing that you can see here, if you hover over, it has your to-do list, it has your in progress, and it has your done, which is kind of like how you would find
+
+41
+00:06:32.930 --> 00:06:42.479
+Matthew Mansour: a Scrum to look like, or in the cases of a Kanban. Kanban board's over here. Again, we haven't done anything, so you've got to go to your backlog to do something.
+
+42
+00:06:42.890 --> 00:06:52.649
+Matthew Mansour: Once you've got all that sort of in place, the next thing that you can see is that there's another one over here, which is a timeline, which is sort of like a Gantt chart giving you the time that you're running.
+
+43
+00:06:52.730 --> 00:06:55.999
+Matthew Mansour: And then over here on the right, you've got one called Docs.
+
+44
+00:06:56.000 --> 00:07:13.189
+Matthew Mansour: Now, don't panic. If it doesn't look like there's anything there, that's because next week, we'll talk about Confluence and how you can link them together. And you're probably clever cookies and you can work that out yourself, but again, I'm only doing what I was asked in teacher feedback, saying, Matt, can you show us how to do it? Well, Matt's showing you what the basics are.
+
+45
+00:07:13.190 --> 00:07:20.130
+Matthew Mansour: So, really, there are multiple different things you can do, but effectively, for you guys, we want it to be that you can link up two things.
+
+46
+00:07:20.130 --> 00:07:34.499
+Matthew Mansour: JIRA and Confluence. I don't want you to think this way, but just to think of it this way. Imagine you could link Microsoft Word and Excel together, so that you can have anything you update in Excel, which you can do, actually, by the way, will update in your Word doc.
+
+47
+00:07:34.760 --> 00:07:50.860
+Matthew Mansour: Right? If you change a graph or something like that. So that's kind of the way to think of it. And Confluence is just your page that you'll be able to put your information into. So, you know, any of your team charter, any documentation, screenshots, stuff like that. Think of it as, like, a Google Doc.
+
+48
+00:07:50.860 --> 00:07:58.700
+Matthew Mansour: but it's run through Atlassian or AI Confluence. So that's kind of the thing that you need to be thinking about from that perspective as well.
+
+49
+00:07:59.020 --> 00:08:22.399
+Matthew Mansour: Okay, let's go on to talking about other stuff. There's lots of other stuff I could talk about, but remember, my job is to expose you, the rest is up to you and your team. Other teams in the past have worked it out for themselves, but I'm trying to give you a little bit of a leg up, and hopefully as we grow as a unit, and we have, you can use this as a starting point. As a starting point, there's lots of stuff you can do post this as well.
+
+50
+00:08:24.890 --> 00:08:25.890
+Matthew Mansour: Okay.
+
+51
+00:08:26.000 --> 00:08:32.559
+Matthew Mansour: So I thought, not boring you to death when I'm doing a few things behind the scenes, just to make sure you can understand it. So now you've got your board.
+
+52
+00:08:32.559 --> 00:08:47.270
+Matthew Mansour: you'll probably go, oh, hang on, they weren't there when you just talked to us before. No, but I was adding them in. I've just made, like, my own little list, copy-paste them over. I'll probably provide this to you as well, just to save you guys some time. Maybe I'll give it to the tutors. I don't know, I'm just doing this live, I mean…
+
+53
+00:08:47.350 --> 00:08:52.629
+Matthew Mansour: I'm thinking it through. So what you'll notice is I've been adding some things along the way.
+
+54
+00:08:53.040 --> 00:08:58.520
+Matthew Mansour: everything is in my backlog. I haven't put anything into my Sprint yet.
+
+55
+00:08:59.010 --> 00:09:01.460
+Matthew Mansour: Because I haven't worked out what I want to do.
+
+56
+00:09:01.460 --> 00:09:25.249
+Matthew Mansour: I haven't also assigned my story points. Again, if you don't know what I'm talking about, everything I've mentioned so far, I have spoken about in the lecture. And I love professional practice that you will know something, and you can roll your eyes, but I'm being honest, if you don't come to lectures and you don't listen to recordings, what are you doing? Like, honestly, this is for those who don't understand. I also changed it to be about your, you know, applying for an internship, because I was thinking just before.
+
+57
+00:09:25.880 --> 00:09:37.690
+Matthew Mansour: I have to give you something so you can get the context around it. So, I just was moving stuff around, I might just see if I can put that back up there, and I… yeah, I deleted one before, so that's okay.
+
+58
+00:09:37.740 --> 00:09:52.900
+Matthew Mansour: Anyway, so what you will notice, it's got some of the orders here, but I haven't put any sprint, well, excuse me, I haven't put any… allocated any story points either, or points itself. You could do that for everything, by the way, you can allocate points. So, we'll talk about the points more
+
+59
+00:09:53.610 --> 00:10:04.389
+Matthew Mansour: I guess as we go forward, I just zoomed it out a little bit so it's a bit easier to understand and get context around. We'll talk about the epics a little bit later on as well.
+
+60
+00:10:04.400 --> 00:10:16.679
+Matthew Mansour: So, so far, I've got a whole list of things. So, I've put in here, as a student, I want to create a profile so that employers can view my skills and experience. This is you're applying for an internship. Then I put another one here. Now.
+
+61
+00:10:17.000 --> 00:10:19.830
+Matthew Mansour: Very easy to do. Let's just grab…
+
+62
+00:10:20.330 --> 00:10:28.339
+Matthew Mansour: one of the tasks here, let's say the task to obviously do your test. So, let's say, for argument's sake.
+
+63
+00:10:28.460 --> 00:10:44.550
+Matthew Mansour: I want to create one. I just click here. Now, on here, there's a drop-down list, okay? And you've got story, bug, and obviously the one that it's assigned to, the task. So I'm going to leave it as task. Task is blue. I'm just going to paste my language here, which is test search
+
+64
+00:10:44.550 --> 00:10:51.619
+Matthew Mansour: By keyword, and then I'm gonna assign the date, let's say the 13th?
+
+65
+00:10:51.850 --> 00:11:02.919
+Matthew Mansour: And who am I going to assign this to? Well, it's only me, so when you guys put your group together, it'll be much easier to be able to do that. And remember, you only need one person to create this.
+
+66
+00:11:03.140 --> 00:11:05.149
+Matthew Mansour: Invite the rest of the people in.
+
+67
+00:11:05.750 --> 00:11:12.560
+Matthew Mansour: So there you go, now it's got my initials, and I'll just whack create, and now I've got that part of my backlog.
+
+68
+00:11:12.950 --> 00:11:14.689
+Matthew Mansour: If I want to…
+
+69
+00:11:14.840 --> 00:11:22.810
+Matthew Mansour: Okay, so a student can apply, for the same time… sorry, for the same internship multiple times. That might be a bug, we don't…
+
+70
+00:11:23.040 --> 00:11:25.730
+Matthew Mansour: So, we will go here.
+
+71
+00:11:25.990 --> 00:11:27.740
+Matthew Mansour: And I'll click on Bug.
+
+72
+00:11:29.020 --> 00:11:36.000
+Matthew Mansour: There's a bug that we need to fix in the system, because people can apply more than once for the same internship.
+
+73
+00:11:36.250 --> 00:11:43.120
+Matthew Mansour: Okay? And it stays on the last thing that you did, and it keeps going on. So that there could be our backlog.
+
+74
+00:11:43.640 --> 00:12:02.809
+Matthew Mansour: to, go further than that. Now, you might want to assign the story points here. The easiest thing is that you can click here and say, okay, as a student, right, remember, hover over if you want to read it? I want to create a profile so that employers can view my skills and experience. That's what you want to do as a student.
+
+75
+00:12:03.020 --> 00:12:27.989
+Matthew Mansour: So, you're thinking, okay, what allocation should I give it? If you remember the rules of Fibonacci, you'll understand the process. Again, I'm not here to repeat myself when I've done my work already, which, if you go back to the lecture from last week, you'd understand what's going on. If you joined us just only in week 3, again, the gamble is in the unit. I'm only doing what I can do, the rest is up to you. Remember? Professional practice.
+
+76
+00:12:28.090 --> 00:12:40.539
+Matthew Mansour: That's the idea. You want to get a job, we're trying to help you. So, different people with different things. So what kind of fruit would this be? As a student, I want to create a profile so that employers can view my skills and experience.
+
+77
+00:12:40.720 --> 00:12:49.249
+Matthew Mansour: Well, I've already got all my experience and skills written down, I'm just saying, so I kind of know that. It probably would be more likely…
+
+78
+00:12:49.810 --> 00:12:57.059
+Matthew Mansour: what would be the effort level? Maybe an apple? So, I'm gonna put down a 5 as my story points.
+
+79
+00:12:57.240 --> 00:13:08.360
+Matthew Mansour: Okay, and then I'm going to do the next one. As a student, I want to be able to search, the availabilities of internships so that I could find opportunities. I think the search feature would be a 2.
+
+80
+00:13:08.760 --> 00:13:16.469
+Matthew Mansour: Okay? The bug one, students can apply for. I might actually give that, the feature of…
+
+81
+00:13:16.790 --> 00:13:30.379
+Matthew Mansour: and 8. And again, for the people who are still playing at home and have no idea what I'm talking about with numbers, if you didn't understand the idea of the conversation around fruit, I'll just scroll down here, and that's something we're going to do a bit later.
+
+82
+00:13:30.980 --> 00:13:33.610
+Matthew Mansour: So, one would be that it's a low effort.
+
+83
+00:13:34.240 --> 00:13:51.629
+Matthew Mansour: Okay, 2 would be that it's obviously… you're just doubling, you'll work it out as you go through. 2 would be a little bit harder, 2 plus 1 is 3, you'll work out the sequence, and then 3 plus 2 is 5. 5 plus 3 is 8, that's why we use these points.
+
+84
+00:13:51.630 --> 00:14:05.049
+Matthew Mansour: Okay, then 13, okay, and then 13 eighth is what? You're going to be going to 21, and so on and so forth. So you start to see the sequence that we're following to create this…
+
+85
+00:14:05.140 --> 00:14:07.350
+Matthew Mansour: Fibonacci process.
+
+86
+00:14:08.400 --> 00:14:23.749
+Matthew Mansour: So then we can go 21 plus 13 is 34. So the idea is the level of effort, and the idea of me mentioning fruit, and even my wife, who is a, you know, who is an agile expert, would argue the point the same thing.
+
+87
+00:14:23.750 --> 00:14:37.270
+Matthew Mansour: And by the way, I asked her about all the things I'm showing you, and she said this is a great starting point. They've got to learn themselves as well. So this is from one of the people in industry who's been in the industry for more than 10 years. She said, you don't want to hold their hand the whole way through, they've got to learn something. And that's true.
+
+88
+00:14:37.270 --> 00:15:00.269
+Matthew Mansour: That was a whole argument I had before in previous semesters, but hey, I'm happy to show you bits and bobs. So, the story points allocation, remember, one being that if you're thinking about fruit, think of a grape. A grape would be a 1. The level of effort to be able to eat a grape is you just pick it off and put it in your mouth. We argued about the idea of maybe a strawberry being a 3, because it's got the stalk, you know, the green part.
+
+89
+00:15:00.270 --> 00:15:05.520
+Matthew Mansour: Unless you're weird, but you eat the strawberry, and then you have to pull it off. It's the effort level.
+
+90
+00:15:05.520 --> 00:15:30.210
+Matthew Mansour: And then 34 would be… or 21 would be a pineapple. Pineapple, you've got to cut the top of the head, cut all the sides off, all the prickly parts. Again, if you're weird and you eat it like that, that'd be… I'd love to see it. And then finally, maybe you've got to shave some of the inside, and also the core, so maybe 21 or 34. So that's why we use the idea of story points, or story salad, because it gives you a concept around it. Yes, we could do it for story points.
+
+91
+00:15:30.210 --> 00:15:34.940
+Matthew Mansour: points and tasks, but I like to assign everything with a story… with a point.
+
+92
+00:15:35.030 --> 00:15:45.529
+Matthew Mansour: So that way, you have the idea of the level of effort, and then, once you've got your points up, you can kind of work out how long and how much time you've got, and what we'll need within that sprint.
+
+93
+00:15:46.480 --> 00:16:05.110
+Matthew Mansour: Okay, so imagine that's it, and then we go, okay, so what are we going to actually be doing in our sprint? So you might grab one of these and drag it up here. As you can see, now it's in my sprint. I might grab one of the… I didn't… let's… I'm just going to put some numbers in here just to…
+
+94
+00:16:05.280 --> 00:16:20.269
+Matthew Mansour: again, I'm not putting the right numbers in, I'm just putting numbers in. I don't know what level of effort they are, okay? But I'm just putting it in so that I know. Because if you put a 21 in there, you probably can't do much more. Whereas if you put some of these smaller ones, you probably can.
+
+95
+00:16:20.550 --> 00:16:28.410
+Matthew Mansour: So, I think that some people work on an estimate of, depending on the size of the sprint, like, 48 points in total, depending on who you speak to.
+
+96
+00:16:28.760 --> 00:16:36.630
+Matthew Mansour: But we've got, at the moment, 5 points. We've got one task to do, it's assigned to me. I might grab one of the… sorry, one of the story points.
+
+97
+00:16:37.020 --> 00:16:40.190
+Matthew Mansour: I might grab one of the actual tasks.
+
+98
+00:16:41.580 --> 00:16:46.980
+Matthew Mansour: If I could drag it. Drag it on a blank space, just for your own argument's sake.
+
+99
+00:16:49.090 --> 00:16:51.339
+Matthew Mansour: Oops, why did that not drag over?
+
+100
+00:16:52.730 --> 00:16:55.950
+Matthew Mansour: That did not drag over, because I've got…
+
+101
+00:16:56.090 --> 00:16:58.579
+Matthew Mansour: That open. Okay, hang on a second.
+
+102
+00:17:00.270 --> 00:17:12.370
+Matthew Mansour: Bit weird, because I had that open. So, let's just say that I want this one over here. Make sure that you see it drag over that line. You can see that sort of bluish line, otherwise it doesn't load.
+
+103
+00:17:12.369 --> 00:17:25.599
+Matthew Mansour: Now, if you make a mistake, you go, oh, Sugar, I don't really want 8 in there, it's no drama, drop it back in there, and you can allocate… by the way, those numbers are just the ones that I've been making, so you can always drop it in and reorganize it as well. Remember the backlog?
+
+104
+00:17:25.690 --> 00:17:35.659
+Matthew Mansour: for those playing at home as well, so I'll just go to Scrum, and I'll just get my favorite… there it is, my favorite image.
+
+105
+00:17:37.600 --> 00:17:39.320
+Matthew Mansour: If my computer will load.
+
+106
+00:17:41.350 --> 00:17:57.830
+Matthew Mansour: So if you remember, this is my favorite image I use all the time. You're creating that. You'll have your meeting to work out what you're going to put into your backlog. Do you see how it's all logical? So once you get to, you know, see it, I think it makes it much easier to understand. So, that's your backlog, right, down here.
+
+107
+00:17:59.730 --> 00:18:15.719
+Matthew Mansour: And then you'll have a meeting with your mates in your class, in class, and then you'll whack into your Sprint backlog up here, your to-do list. So, so far, so good, right? And then what it does is it enables you to have a couple different views. Now, we haven't started
+
+108
+00:18:15.900 --> 00:18:23.820
+Matthew Mansour: Okay, plan and start the sprint with your work on it. We haven't started the sprint, so it has no idea what we're talking about. So I haven't said, start sprint.
+
+109
+00:18:24.210 --> 00:18:31.289
+Matthew Mansour: that's when you'll see what's happening on the board, okay? So that just in case you're wondering from that perspective as well.
+
+110
+00:18:33.230 --> 00:18:39.220
+Matthew Mansour: Alright, so enough on the idea of story points. Let's just say we've done all that.
+
+111
+00:18:39.400 --> 00:18:47.580
+Matthew Mansour: So let's imagine these are the things that we wanted to do. Then we're going to go over here on the right and click on what we would consider to be Start Sprint.
+
+112
+00:18:48.790 --> 00:19:03.719
+Matthew Mansour: It will come up and say, hey, what do you want to do? Do you want to name it this? Let's just call it Sprint 1, let's call it 2 weeks, and it's going to say, from when, so let's say we don't want to start work… oh, let's say we want to start from now.
+
+113
+00:19:03.720 --> 00:19:09.750
+Matthew Mansour: And then obviously it automatically will complete the sprint goals, you can put the goals in there.
+
+114
+00:19:20.900 --> 00:19:24.649
+Matthew Mansour: I mean, at hand, you can do whatever you want, and then click start.
+
+115
+00:19:25.380 --> 00:19:42.030
+Matthew Mansour: And it says the sprint has started. Don't panic, it will give you a warning about upgrading and that, so just click OK, and then you will notice that we have our things to do. So you will notice that we have our to-do list, our in progress, in review, and to, and done.
+
+116
+00:19:42.200 --> 00:19:53.289
+Matthew Mansour: So, if you want, you could literally drag it over, so something's in progress. If you completed creating the UI, you could drag it over to in review, so someone in your team may review it.
+
+117
+00:19:53.680 --> 00:20:02.429
+Matthew Mansour: And then over to Done, and you'll notice it does that green light excitement thing to there. And then at the end, when you finish, you can click on Complete Sprint.
+
+118
+00:20:02.590 --> 00:20:12.219
+Matthew Mansour: And that would finalize the sprint, saying… getting you excited, and then we'll say, okay, let's move on to the next one. So you might say, collect a new sprint.
+
+119
+00:20:12.960 --> 00:20:18.020
+Matthew Mansour: It says create a retrospective for the sprint, so that means to finish off your work, just click Complete Sprint.
+
+120
+00:20:20.840 --> 00:20:35.400
+Matthew Mansour: And obviously, that would mean that we are moving into, as you can see, we are moving into Sprint 2, so that way we can start to put things into that BASICS as well, and moving on to the next one, because you can see the date has changed.
+
+121
+00:20:35.470 --> 00:20:54.780
+Matthew Mansour: You might want to move these. Remember, the reason why they're still sitting there is that we never moved them from the original board. Remember, I didn't drag them all over? So it thinks that those things were stuck there. So what it's done effectively is said, okay, so you've finished the sprint, you've done what you did, but these two you didn't move over. So if you go back to the video, you'll see that those things are left over in the to-do list.
+
+122
+00:20:54.830 --> 00:21:05.109
+Matthew Mansour: So, they are now sitting in our next sprint. So then we'll go, okay, look, we might not keep these, because we didn't complete them, so I might just put everything back into my backlog.
+
+123
+00:21:05.430 --> 00:21:09.210
+Matthew Mansour: And again, why did you close it, Matt? If I go to my…
+
+124
+00:21:14.000 --> 00:21:15.300
+Matthew Mansour: I can't spill!
+
+125
+00:21:20.610 --> 00:21:23.569
+Matthew Mansour: I probably put in the wrong thing. Idiot, I don't want to put…
+
+126
+00:21:27.260 --> 00:21:32.819
+Matthew Mansour: There we go. Again, I just like to use the same one so you get the same theme. Just keep it open, Matt. Stop closing it.
+
+127
+00:21:33.280 --> 00:21:41.230
+Matthew Mansour: Anyway, if you remember, so when you go through that process, remember, originally in Sprint 1, we selected what… we put everything in the backlog that we're going to do.
+
+128
+00:21:41.630 --> 00:21:46.690
+Matthew Mansour: We had Sprint planning, we discussed it, we went through it. Somehow or other.
+
+129
+00:21:46.930 --> 00:21:49.610
+Matthew Mansour: more for the example, I didn't finish everything.
+
+130
+00:21:49.870 --> 00:22:03.049
+Matthew Mansour: I've now decided, hey, we've done our retro, we've done our discussion, let's put everything back in the backlog, and let's start Sprint 2 by grabbing what we think we'll do in Sprint 2. So I think that we'll do the setup of the database first.
+
+131
+00:22:03.300 --> 00:22:05.239
+Matthew Mansour: Maybe fix this bug.
+
+132
+00:22:05.650 --> 00:22:07.339
+Matthew Mansour: Okay, as an example.
+
+133
+00:22:08.040 --> 00:22:16.819
+Matthew Mansour: And then again, you can hit the start sprint, and then again, things will move. Remember, nothing here, because if you freak out, there's nothing here, that means you're in Sprint 2.
+
+134
+00:22:18.040 --> 00:22:19.100
+Matthew Mansour: Excuse me?
+
+135
+00:22:19.270 --> 00:22:22.530
+Matthew Mansour: You haven't started it, you can click on Start Sprint.
+
+136
+00:22:23.220 --> 00:22:28.250
+Matthew Mansour: It'll ask you how long. Remember, sometimes it defaults, I'm gonna say 2 weeks.
+
+137
+00:22:29.080 --> 00:22:31.259
+Matthew Mansour: And I'm going to say…
+
+138
+00:22:34.820 --> 00:22:36.859
+Matthew Mansour: Our goal would be to complete
+
+139
+00:22:48.700 --> 00:22:49.960
+Matthew Mansour: Click Start.
+
+140
+00:22:51.030 --> 00:22:55.120
+Matthew Mansour: And as you can see, I haven't done anything, because if I move these over…
+
+141
+00:22:55.230 --> 00:23:05.839
+Matthew Mansour: Right? And you should be able to see, I just want to show you that if I moved everything over, and this is manual, you'll be moving… let's just say that we've nailed it, and we've killed everything, and we've completed the sprint.
+
+142
+00:23:06.920 --> 00:23:08.210
+Matthew Mansour: Yeah, we're happy.
+
+143
+00:23:10.080 --> 00:23:27.950
+Matthew Mansour: See how it's blank? Sprint 3 starts with nothing, because they're all done, okay? And then you have your bits and pieces left, you can start Sprint 3. Now, you're not going to do… you're only doing two sprints, I've made it very easy, so half and half would be roughly what you're going to be putting. Half the workload would be done in Sprint 1, and half the workload would be done in Sprint 2.
+
+144
+00:23:27.950 --> 00:23:33.120
+Matthew Mansour: And that's kind of what I think you kind of would need to know from the basics.
+
+145
+00:23:35.050 --> 00:23:53.339
+Matthew Mansour: I guess another thing I want to really quickly mention, again, I'm trying to think of everything in a short video, and, you know, I don't want to do too much, but I'm really covering main things, right? Another one is, you probably may have not seen this. I don't know how yours is set up, but if you don't have the word report there, don't stress.
+
+146
+00:23:53.340 --> 00:23:55.479
+Matthew Mansour: You click on the plus symbol up here.
+
+147
+00:23:56.420 --> 00:24:13.940
+Matthew Mansour: And you should be able to option… there's a whole stack of other stuff you can make as your… it's just a shortcut. Select reports, and it should appear. Reports allows you to see a burndown chart. Again, if you didn't look at, you know, the lecture from week 1 or 2, I'm not responsible for that. You go back and you listen to it. But then if you click here, reports.
+
+148
+00:24:14.650 --> 00:24:24.009
+Matthew Mansour: It'll give you a nice summary. So it shows you about the work items by status, work items by type, who's assigned to what. Clearly, I've been assigned to all of it, because it's just me.
+
+149
+00:24:24.580 --> 00:24:32.409
+Matthew Mansour: the cycle… remember, we just started today, so it can't be anything. Anyway, it's got a lot of detail in there, and sort of the summary of information. Now.
+
+150
+00:24:32.860 --> 00:24:39.519
+Matthew Mansour: If you want to see the burndown chart, click on More Reports, Select Sprint Burn Down.
+
+151
+00:24:41.680 --> 00:24:57.370
+Matthew Mansour: And… it should load. So right now, let's look at Sprint 1, because one, at least we ticked some stuff to do, and you can see there's just showing you, like, you can hover over it, it's just showing you what we started the sprint and where we're at, and that line showing the…
+
+152
+00:24:57.370 --> 00:25:05.309
+Matthew Mansour: ideal burndown. Now, we haven't done anything, so it's obviously going to be looking quite bland or empty, but at least you know that you can look at that.
+
+153
+00:25:05.490 --> 00:25:11.790
+Matthew Mansour: And you can learn from story points, works item, accounts, time…
+
+154
+00:25:12.070 --> 00:25:18.369
+Matthew Mansour: Okay, so you can play around with all of it. But anyway, it's just more… I wanted to make a comment that, yes, you could be looking at that.
+
+155
+00:25:18.790 --> 00:25:28.960
+Matthew Mansour: So, I think, ladies and gentlemen, boys and girls, kids of all ages, I think that that gives you at least a really fair starting point.
+
+156
+00:25:29.000 --> 00:25:46.939
+Matthew Mansour: And giving you some opportunities to do that. What I will do as well is I'll put two documents together to help you and your tutors to go through this stuff together. Let's see what they know as well. That'll be fun. Anyway, I hope this helps. This is what will start. And then, like I said to my
+
+157
+00:25:46.940 --> 00:25:49.920
+Matthew Mansour: my TAs, if someone rocks up late.
+
+158
+00:25:49.920 --> 00:26:13.890
+Matthew Mansour: just throw them this video. And like I said, guys, go to Atlassian. There's so many videos out there to explain everything in detail. You know, I've explained in my migrant parents' background, you know, way, Matthew Mansour style, you can do it yourself and go find videos. And if you find someone who does it differently, it's like Word. There are multiple ways to do stuff, so my way may be different to others, but it
+
+159
+00:26:13.890 --> 00:26:15.700
+Matthew Mansour: Get you to the same point.
+
+160
+00:26:15.730 --> 00:26:34.840
+Matthew Mansour: Anyway, I hope this helped a little bit, and yeah, good luck with it. And remember, the actual first sprint will happen in week 7? Week 7? And week 6, we make official groups, but hey, nothing wrong with starting with having groups created earlier, so sit with people you're comfortable with in your SGTA, so that you have an idea.
+
+161
+00:26:34.840 --> 00:26:40.940
+Matthew Mansour: Okay? Alright, good stuff. Thanks very much. All the best. Take care. Bye-bye.
+
