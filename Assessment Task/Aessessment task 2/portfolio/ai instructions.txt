@@ -1,0 +1,231 @@
+I am completing COMP2700 Assessment 2 for the ActiveWest project. I have attached:
+
+1. COMP2700_Assessment_2_IT_Project_FSE_FINAL.pdf
+2. ActiveWest Portfolio.docx
+
+Please help me write and improve only the section titled “Sprint Delivery and Project Evidence.”
+
+Before writing:
+
+1. Read the assessment brief and identify exactly what the Sprint Delivery and Project Evidence section must contain.
+2. Review the marking rubric, particularly the High Distinction criteria for:
+   - the two-sprint method;
+   - Jira and Confluence evidence;
+   - traceability;
+   - authentic learning and improvement;
+   - completeness and consistency.
+3. Review the existing portfolio so the section does not repeat information already covered in Project Definition and Scope, Project Delivery Plan, Project Controls, or Recommendations and Handover.
+4. Do not invent tasks, dates, Jira activity, meetings, decisions, reviews, or evidence.
+5. If important facts are missing, insert a clearly labelled placeholder rather than making assumptions.
+
+The section should be approximately 900 words, excluding figure captions if permitted by the assessment rules.
+
+The purpose of this section is to evaluate how the team planned, tracked, reviewed and improved its work across two sprints. Do not repeat the detailed contents of the ActiveWest Problem Statement, Stakeholder Analysis or Requirements Register. These should only be identified as Sprint 2 outputs, with references to the relevant portfolio section and evidence.
+
+Use the following factual information.
+
+SPRINT 1
+
+Sprint 1 primarily focused on setting up the project-management environment and defining the backlog.
+
+Sprint 1 goals:
+- Define epics, tasks and story points.
+- Set up the Jira board.
+- Set up Confluence.
+- Set up the Microsoft Teams communication channel.
+
+Sprint 1 activities and progress:
+- Jira, Confluence and Microsoft Teams were established.
+- The team communicated through Microsoft Teams, weekly meetings and class discussions.
+- Initial drafting occurred in Google Docs before reviewed work was transferred into Jira and Confluence.
+- Work was originally divided according to assessment sections.
+- One team member was absent from the Sprint 1 Week 1 meeting, so the team waited until the Thursday class to finalise scope and responsibilities.
+- The Jira backlog was later reorganised around project-planning epics rather than primarily around user stories.
+- The epics were:
+  1. Define Problems
+  2. Define Objectives
+  3. Define Success Criteria
+  4. Define Scope and Requirements
+  5. Stakeholder Analysis
+  6. Initial Risk Assessment
+- Each member became responsible for one epic.
+- The team decided that the assessment would focus on planning and feasibility rather than building the proposed software solution.
+
+Sprint 1 blocker:
+- The team lacked clarity about which tasks needed to be created and completed.
+- The backlog was not properly established until the end of Sprint 1 Week 2.
+- This left substantial analysis work for Sprint 2.
+
+Sprint 1 Review:
+- Allocated tasks.
+- Corrected and updated the backlog.
+- Updated the relevant Confluence pages.
+- Confirmed that unfinished work would move into Sprint 2.
+
+Sprint 1 Retrospective:
+- The backlog should have been created during Sprint 1 Week 1 rather than at the end of Week 2.
+- The late backlog definition increased the amount of work remaining for Sprint 2.
+- Team communication was consistent and should continue.
+- Jira and Confluence should continue to be updated.
+- The team did not establish a formal Definition of Done.
+
+Important accuracy point:
+The ActiveWest Problem Statement, ActiveWest Stakeholder Analysis and Requirements Register were not completed during Sprint 1. They were completed during Sprint 2.
+
+SPRINT 2
+
+Sprint 2 goals:
+- Complete everything in the backlog that was not completed in Sprint 1.
+- Refine the final decision concerning project feasibility.
+- Assign portfolio sections to individual team members.
+- Polish the Confluence pages.
+- Finalise the information recorded under each epic.
+- Begin the presentation slides during Sprint 2 Week 2.
+
+Sprint 2 planned work:
+- Complete the backlog first.
+- Complete the portfolio by Friday or Saturday of Week 2.
+- Complete the presentation slides by Sunday of Week 2.
+
+Changes from Sprint 1:
+- Members had greater clarity about the assessment expectations.
+- Members became more proactive.
+- Team members communicated their ideas, progress and expectations more effectively.
+- Individual portfolio responsibilities were allocated.
+
+Portfolio allocation:
+- Aditri: Project Definition and Scope
+- Dheepak: Sprint Delivery and Project Evidence
+- Harshvi: Project Controls and Professional Practice
+- Katrina: Project Delivery Plan
+- Riyash: Executive Summary and Recommendations and Handover
+
+Sprint 2 outputs:
+- The outstanding Jira backlog was completed.
+- The ActiveWest Problem Statement was completed.
+- The ActiveWest Stakeholder Analysis was completed.
+- The Requirements Register was completed.
+- Confluence pages and epic details were finalised or polished.
+- The project feasibility decision was refined.
+
+Sprint 2 blocker:
+- Substantial portfolio writing did not begin until Thursday of Sprint 2 Week 2.
+- This compressed the available time for integration, editing, evidence checking and presentation rehearsal.
+
+Sprint 2 Review:
+- The Jira backlog was completed.
+- The portfolio and presentation were still in progress.
+- Therefore, the main backlog goal was achieved, but not every planned Sprint 2 outcome was complete at the time of the Review.
+
+Sprint 2 Retrospective:
+- One member completed a disproportionate share of the presentation work because the deadline was approaching.
+- The late portfolio start created a risk that the portfolio and presentation would become misaligned.
+- The team learned that backlog completion, portfolio integration, slide preparation and rehearsal should be planned as separate activities with owners and internal deadlines.
+
+DECISION LOG EVIDENCE
+
+Sprint 1 Week 1 decisions:
+- Draft in Google Docs before transferring reviewed information into Jira and Confluence.
+- Initially divide work according to assessment sections.
+- Wait until the Thursday class to finalise scope and team roles because one member was absent.
+- Determine the work required for Sprint 1 Week 2.
+
+Sprint 1 Week 2 decisions:
+- Structure the backlog around project-planning epics.
+- Focus on project feasibility rather than building the solution.
+- Allocate responsibility for one epic to each member.
+
+Sprint 2 Week 1 decisions:
+- Allocate the portfolio sections listed above.
+- Address a concern about presenting first through reassurance and presentation planning.
+
+WRITING REQUIREMENTS
+
+Write a concise, evidence-based section of approximately 900 words using the following structure:
+
+5. Sprint Delivery and Project Evidence
+
+5.1 Sprint 1 Delivery
+- Goal
+- Planned work
+- Actual progress
+- Incomplete work and carry-over
+- Relevant decisions and evidence
+
+5.2 Sprint 1 Review and Retrospective
+- Review findings
+- Main blocker
+- Lessons learned
+- Actions carried into Sprint 2
+
+5.3 Sprint 2 Delivery
+- Goal
+- Changes caused by Sprint 1 findings
+- Completed outputs
+- Work still in progress
+- Relevant decisions and evidence
+
+5.4 Sprint 2 Review and Retrospective
+- Review outcome
+- Late portfolio commencement
+- Portfolio and presentation integration risk
+- Uneven presentation workload
+- Practical lessons
+
+5.5 Learning, Traceability and Continuous Evidence
+- Explain specifically how Sprint 1 findings affected Sprint 2 priorities.
+- Explain how Jira, Confluence, dated meeting notes and the Decision Log demonstrate continuing activity.
+- Include one concise traceability chain:
+  project objective → epic → Jira item → Confluence evidence → project decision.
+- Mention the Problem Statement, Stakeholder Analysis and Requirements Register only as Sprint 2 outputs. Do not repeat their detailed contents.
+- Acknowledge that drafting in Google Docs created a visibility limitation because some early activity occurred outside Jira and Confluence.
+- Acknowledge that no formal Definition of Done was used.
+- Do not claim that Sprint 2 was completely successful because the portfolio and presentation remained in progress at the Review.
+
+STYLE REQUIREMENTS
+
+- Use formal Australian academic English.
+- Be analytical rather than descriptive.
+- Avoid repetitive or padded statements.
+- Use specific evidence rather than repeatedly saying communication improved.
+- Do not exaggerate the team’s performance.
+- Present weaknesses as genuine project lessons.
+- Do not blame individual members.
+- Do not state that the software platform was built.
+- Do not fabricate continuous Jira activity if the records do not prove it.
+- Do not repeat details that belong in other portfolio sections.
+- Keep the section focused on delivery, evidence, changes and learning.
+- Use third person or “the team,” not informal first-person language.
+- Avoid em dashes.
+
+EVIDENCE AND PLACEHOLDERS
+
+Where suitable, add placeholders such as:
+
+[Insert Sprint 1 dates]
+[Insert Sprint 2 dates]
+[Insert number of Sprint 1 planned and completed items]
+[Insert number of Sprint 2 planned and completed items]
+[Insert Jira issue key]
+[Insert Figure X: Sprint 1 backlog]
+[Insert Figure X: Sprint 1 Review and Retrospective]
+[Insert Figure X: Sprint 2 completed backlog]
+[Insert Figure X: Jira issue history]
+[Insert Figure X: dated meeting notes or Decision Log]
+
+For every suggested figure, provide a short caption explaining:
+1. what the evidence shows;
+2. why it is relevant; and
+3. what project decision or change it supports.
+
+OUTPUT FORMAT
+
+Provide:
+
+1. A short checklist of any information still missing.
+2. The complete approximately 900-word portfolio section.
+3. Recommended figure positions and captions.
+4. A final accuracy check identifying any claims that require verification against Jira or Confluence.
+5. A brief explanation of how the section addresses the High Distinction criteria.
+
+Do not produce a generic Agile explanation. Tailor everything to the ActiveWest evidence and assessment requirements.

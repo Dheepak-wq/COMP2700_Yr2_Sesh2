@@ -1,0 +1,395 @@
+Date: Sat, 26 Sep 2026 01:21:55 +0000 (UTC)
+Message-ID: <1143743874.7.1790385715538@6877c676012a>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_6_1720500385.1790385715538"
+
+------=_Part_6_1720500385.1790385715538
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SCRUM-68 Identify and categorise business problems</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SCRUM-68 Identify and categorise business problems</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"88=
+6ad26f-46de-4658-bf96-8ac5b5daa321" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"57d38d28-805f-4d7a-9f3e-3dfb97135e4f">
+<th data-local-id=3D"1e8f092f-ecaa-4954-accd-a4d10b85ca29" class=3D"conflue=
+nceTh">
+<p local-id=3D"aa69fe9f7c13">Problem ID</p></th>
+<th data-local-id=3D"f8571870-b3b4-4867-b1de-5b45e6ca088c" class=3D"conflue=
+nceTh">
+<p local-id=3D"2fc63ff02289">Category</p></th>
+<th data-local-id=3D"d963f3ca-0217-415f-8745-c378634c87e5" class=3D"conflue=
+nceTh">
+<p local-id=3D"14f34f69f80d">Problem description</p></th>
+<th data-local-id=3D"279ef9ca-38a2-4b71-8a44-707df9a0dbeb" class=3D"conflue=
+nceTh">
+<p local-id=3D"99669f15fbf8">Evidence</p></th>
+<th data-local-id=3D"1c7343c3-44cf-42d2-9b8f-4311f9de588e" class=3D"conflue=
+nceTh">
+<p local-id=3D"f0e50bd7bc68">Stakeholders affected</p></th>
+<th data-local-id=3D"e3999583-fdb4-4828-9672-eacaea2d46aa" class=3D"conflue=
+nceTh">
+<p local-id=3D"0d3088c867d7">Initial severity</p></th>
+</tr>
+<tr data-local-id=3D"f93cd595-67f8-4b16-9d19-fb6fcd02d7db">
+<td data-local-id=3D"a9842ad6-33d1-4f8e-b267-20a23cdde559" class=3D"conflue=
+nceTd">
+<p local-id=3D"3c10683e7deb">P1</p></td>
+<td data-local-id=3D"896dece2-673a-4ecd-af01-50b5fbb4474b" class=3D"conflue=
+nceTd">
+<p local-id=3D"f4e925eff258">Information and data</p></td>
+<td data-local-id=3D"6ef11f13-2469-425d-8566-ef680dc3ad21" class=3D"conflue=
+nceTd">
+<p local-id=3D"38eade031a3e">ActiveWest lacks a reliable single source of t=
+ruth</p></td>
+<td data-local-id=3D"ed857bdc-a05d-4b8b-aee1-2be4ce34020d" class=3D"conflue=
+nceTd">
+<p local-id=3D"73473e7681a6">Client scenario</p></td>
+<td data-local-id=3D"fc7c6d9f-44dd-4821-8663-10598b96135a" class=3D"conflue=
+nceTd">
+<p local-id=3D"17059fc3e088">Staff, clubs, volunteers and management</p></t=
+d>
+<td data-local-id=3D"45dc6f7e-ec67-4d47-84dc-789702ea58e2" class=3D"conflue=
+nceTd">
+<p local-id=3D"771f1d1171df">High</p></td>
+</tr>
+<tr data-local-id=3D"f1b31f0f-db3b-4bdf-9c33-99205cffe7b2">
+<td data-local-id=3D"6a0f29e9-832c-4b31-93bd-8275d67af9c3" class=3D"conflue=
+nceTd">
+<p local-id=3D"e96777b87d1e">P2</p></td>
+<td data-local-id=3D"4ad4df81-a0bc-4e63-bd06-0adbd48eca5f" class=3D"conflue=
+nceTd">
+<p local-id=3D"1006d6df7ab0">Processes and administration</p></td>
+<td data-local-id=3D"6cb71abb-9117-4c48-84ec-b9167002d9ad" class=3D"conflue=
+nceTd">
+<p local-id=3D"9c1427b9abba">Information is entered and reconciled manually=
+</p></td>
+<td data-local-id=3D"aeaa1093-7297-424b-bc1e-831a2d9946a9" class=3D"conflue=
+nceTd">
+<p local-id=3D"327147ff502e">Client scenario</p></td>
+<td data-local-id=3D"817ccb72-371f-45d8-8cd2-bfc952c2efe6" class=3D"conflue=
+nceTd">
+<p local-id=3D"a0c0210cd4a1">Staff and volunteers</p></td>
+<td data-local-id=3D"1bc93699-3983-4ba9-9f4d-4c765c8d1bab" class=3D"conflue=
+nceTd">
+<p local-id=3D"550e42446c16">High</p></td>
+</tr>
+<tr data-local-id=3D"287372dc-9014-49e7-92db-151d7ef13eba">
+<td data-local-id=3D"97b847aa-552e-4b51-9807-49eda2a948c7" class=3D"conflue=
+nceTd">
+<p local-id=3D"cdbbf8c1e0b8">P3</p></td>
+<td data-local-id=3D"19c12670-5990-4020-804c-83ed66f47e0f" class=3D"conflue=
+nceTd">
+<p local-id=3D"6ca76000e608">Reporting and decision-making</p></td>
+<td data-local-id=3D"e77e487e-2f94-46f7-8d74-fa75f0b9303c" class=3D"conflue=
+nceTd">
+<p local-id=3D"1f6c61abc4dc">Reports require information to be collected fr=
+om different locations</p></td>
+<td data-local-id=3D"acf817d7-a701-4e06-9893-af94947c6564" class=3D"conflue=
+nceTd">
+<p local-id=3D"1341219c424f">Client scenario</p></td>
+<td data-local-id=3D"d44352a2-b661-40c6-af9b-323f6e4667fd" class=3D"conflue=
+nceTd">
+<p local-id=3D"2f2b7cfce7a3">Management and Board</p></td>
+<td data-local-id=3D"e455447b-0095-4d35-b275-a7045d672fd2" class=3D"conflue=
+nceTd">
+<p local-id=3D"4c1f9b7fd509">High</p></td>
+</tr>
+<tr data-local-id=3D"240c6d65-3670-45fc-a3aa-96a6b66433df">
+<td data-local-id=3D"b1037de9-8617-49eb-91f3-cd099f75ea49" class=3D"conflue=
+nceTd">
+<p local-id=3D"5071837d7144">P4</p></td>
+<td data-local-id=3D"e1691688-612d-4a0f-afd2-4d357e4db680" class=3D"conflue=
+nceTd">
+<p local-id=3D"5d4ee07eff91">Communication</p></td>
+<td data-local-id=3D"0085f006-902b-4991-95eb-402d92d90961" class=3D"conflue=
+nceTd">
+<p local-id=3D"a9d884acf79a">Communication records are distributed across d=
+ifferent channels</p></td>
+<td data-local-id=3D"86593e55-b809-435d-bfe0-0e2bac150a12" class=3D"conflue=
+nceTd">
+<p local-id=3D"1537fb2748da">Client scenario</p></td>
+<td data-local-id=3D"625c597a-5973-48d3-b7cf-fb785494c63c" class=3D"conflue=
+nceTd">
+<p local-id=3D"0284609a8cec">Staff, clubs and volunteers</p></td>
+<td data-local-id=3D"489b44a9-5a2f-48d3-9aa0-5b5f24d97555" class=3D"conflue=
+nceTd">
+<p local-id=3D"9b936924cd90">Medium to High</p></td>
+</tr>
+<tr data-local-id=3D"53662043-2eb0-4ff1-a8e5-5f049ab4df3d">
+<td data-local-id=3D"d352f875-3fe5-49a5-b54a-f48b9e82c538" class=3D"conflue=
+nceTd">
+<p local-id=3D"fe11dcff5d00">P5</p></td>
+<td data-local-id=3D"28019cf1-2f5f-487d-b13b-497bcf3f4bfb" class=3D"conflue=
+nceTd">
+<p local-id=3D"f5cf8eda0f1b">Technology and integration</p></td>
+<td data-local-id=3D"36efc35c-e6ca-41a2-9232-81b1509814f4" class=3D"conflue=
+nceTd">
+<p local-id=3D"e5cafb9deb96">Separate tools duplicate functions and create =
+integration difficulty</p></td>
+<td data-local-id=3D"801882f4-27c8-4b43-8676-59707cd8fe60" class=3D"conflue=
+nceTd">
+<p local-id=3D"c84dd6484023">Client scenario</p></td>
+<td data-local-id=3D"98c6a5d3-a05c-4eed-8236-73439cf8e614" class=3D"conflue=
+nceTd">
+<p local-id=3D"b57a75718ecc">Staff and system administrators</p></td>
+<td data-local-id=3D"e5392bb6-7556-4cc1-89ff-db25641958c4" class=3D"conflue=
+nceTd">
+<p local-id=3D"65dedf6aa350">High</p></td>
+</tr>
+<tr data-local-id=3D"24ee2283-8de2-44d1-b379-9270448d25a2">
+<td data-local-id=3D"d28fb475-46d8-4f39-a9c1-1a1b0d81ed4e" class=3D"conflue=
+nceTd">
+<p local-id=3D"931af5bc79f7">P6</p></td>
+<td data-local-id=3D"f51fc03a-5715-40e1-922f-ed5b2e155844" class=3D"conflue=
+nceTd">
+<p local-id=3D"a793fb7d108b">Governance, privacy and security</p></td>
+<td data-local-id=3D"224b93c1-a1ba-4272-8df5-e902c81b5f70" class=3D"conflue=
+nceTd">
+<p local-id=3D"d4f88a189371">Distributed information is harder to control c=
+onsistently</p></td>
+<td data-local-id=3D"0a2ae4ed-2d18-4111-b08b-64c2283d09fa" class=3D"conflue=
+nceTd">
+<p local-id=3D"83e5178222ed">Client scenario</p></td>
+<td data-local-id=3D"398860e4-084e-43ad-81f3-e5f47686a837" class=3D"conflue=
+nceTd">
+<p local-id=3D"ba06befcdc27">Staff and management</p></td>
+<td data-local-id=3D"76c1cf80-05ba-4c81-a155-c241297014e4" class=3D"conflue=
+nceTd">
+<p local-id=3D"0a13994a5ddc">High</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"994f75c3f649">The problem register identifies fragmented inf=
+ormation and the absence of a reliable single source of truth as the centra=
+l business problem. Several additional problems, including duplicate admini=
+stration, inconsistent records and slow reporting, appear to result from or=
+ be intensified by this central problem.</p>
+    </div>
+</body>
+</html>
+------=_Part_6_1720500385.1790385715538--

@@ -1,0 +1,481 @@
+Date: Sat, 26 Sep 2026 01:22:23 +0000 (UTC)
+Message-ID: <1991008651.3.1790385743897@6e8eedfd7609>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2_289388342.1790385743892"
+
+------=_Part_2_289388342.1790385743892
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SCRUM-73: Root-cause analysis</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SCRUM-73: Root-cause analysis</h1>
+    <div class=3D"Section1">
+        <h2 local-id=3D"f7b6bf190c1d" id=3D"SCRUM-73:Root-causeanalysis-Ove=
+rview"><img class=3D"emoticon emoticon-clipboard" data-emoji-id=3D"1f4cb" d=
+ata-emoji-shortname=3D":clipboard:" data-emoji-fallback=3D"\uD83D\uDCCB" sr=
+c=3D"f82ac11f739c0d60b6cde73f5aadcffa114f9788b550cde0fb29794ba7e3e044" widt=
+h=3D"16" height=3D"16" data-emoticon-name=3D"clipboard" alt=3D"content.emot=
+icon.clipboard">&nbsp;Overview</h2>
+<p local-id=3D"b868e2144ccc">Discover and resolve problems with your team b=
+y following the instructions for the <a class=3D"external-link" href=3D"htt=
+ps://www.atlassian.com/team-playbook/plays/5-whys" rel=3D"nofollow">5 Whys =
+Analysis Play</a>.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"c3=
+d3db4d3e5b" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 234.0px;">
+<col style=3D"width: 526.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"4e481cfa7ff1">
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"090758934ad9" class=
+=3D"confluenceTd">
+<p local-id=3D"26eca2905c69"><strong>Team</strong></p></td>
+<td data-local-id=3D"f3e793350a5f" class=3D"confluenceTd">
+<p local-id=3D"866027faa2a0"></p></td>
+</tr>
+<tr data-local-id=3D"fe20b8a54f7d">
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"8c18b1d66629" class=
+=3D"confluenceTd">
+<p local-id=3D"5a21d2f31043"><strong>Team members</strong></p></td>
+<td data-local-id=3D"ef4231bee2d0" class=3D"confluenceTd">
+<p local-id=3D"4c72a23e2861"></p></td>
+</tr>
+<tr data-local-id=3D"0376af021deb">
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"c99e9bf131e2" class=
+=3D"confluenceTd">
+<p local-id=3D"7a4963170721"><strong>Date</strong></p></td>
+<td data-local-id=3D"9571347dbbdd" class=3D"confluenceTd">
+<p local-id=3D"4b433a2351ce"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 local-id=3D"d718565a621d" id=3D"SCRUM-73:Root-causeanalysis-Problemstat=
+ements"><img class=3D"emoticon emoticon-blue-star" data-emoji-id=3D"1f914" =
+data-emoji-shortname=3D":thinking:" data-emoji-fallback=3D"\uD83E\uDD14" sr=
+c=3D"695b9df6cedf89236aec888c8fdd05d150782b160dc342a4838ae5329942316a" widt=
+h=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(blue star)"=
+>&nbsp;Problem statements</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d5=
+57b8f7465c" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 152.0px;">
+<col style=3D"width: 152.0px;">
+<col style=3D"width: 152.0px;">
+<col style=3D"width: 152.0px;">
+<col style=3D"width: 152.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"20719af70de7">
+<th data-highlight-colour=3D"#fffae6" data-local-id=3D"8cb8921fac96" class=
+=3D"confluenceTh">
+<p local-id=3D"04aaf793743e"><strong>Problem 1</strong></p></th>
+<th data-highlight-colour=3D"#fffae6" data-local-id=3D"32dcac7cce2b" class=
+=3D"confluenceTh">
+<p local-id=3D"63f0138f82a8"><strong>Problem 2</strong></p></th>
+<th data-highlight-colour=3D"#fffae6" data-local-id=3D"b8f2bde8540c" class=
+=3D"confluenceTh">
+<p local-id=3D"eccc60547bbf"><strong>Problem 3</strong></p></th>
+<th data-highlight-colour=3D"#fffae6" data-local-id=3D"b904f7690f02" class=
+=3D"confluenceTh">
+<p local-id=3D"958a3cd6689b"><strong>Problem 4</strong></p></th>
+<th data-highlight-colour=3D"#fffae6" data-local-id=3D"c7e2ca41630a" class=
+=3D"confluenceTh">
+<p local-id=3D"30c2d2833120"><strong>Problem 5</strong></p></th>
+</tr>
+<tr data-local-id=3D"356d11ec4c4c">
+<td data-local-id=3D"1cfc1f2e04a3" class=3D"confluenceTd">
+<p local-id=3D"b6f1f0d64dff"></p></td>
+<td data-local-id=3D"c660ba762579" class=3D"confluenceTd">
+<p local-id=3D"67a291399b5c"></p></td>
+<td data-local-id=3D"a8378a36060d" class=3D"confluenceTd">
+<p local-id=3D"fceb4f548cd2"></p></td>
+<td data-local-id=3D"b5afb083f0c8" class=3D"confluenceTd">
+<p local-id=3D"d259dc7d7376"></p></td>
+<td data-local-id=3D"1282c686cbcc" class=3D"confluenceTd">
+<p local-id=3D"b9f0fd35c100"></p></td>
+</tr>
+<tr data-local-id=3D"09c595e2122c">
+<td data-highlight-colour=3D"#fffae6" data-local-id=3D"b21d202e1740" class=
+=3D"confluenceTd">
+<p local-id=3D"513378f7f29f"><strong>Whys</strong></p></td>
+<td data-highlight-colour=3D"#fffae6" data-local-id=3D"64aa7e69014e" class=
+=3D"confluenceTd">
+<p local-id=3D"83009a96f36b"><strong>Whys</strong></p></td>
+<td data-highlight-colour=3D"#fffae6" data-local-id=3D"bbbe94a04449" class=
+=3D"confluenceTd">
+<p local-id=3D"48d697445ece"><strong>Whys</strong></p></td>
+<td data-highlight-colour=3D"#fffae6" data-local-id=3D"a5dab4cdc3f5" class=
+=3D"confluenceTd">
+<p local-id=3D"a27fc2ba8200"><strong>Whys</strong></p></td>
+<td data-highlight-colour=3D"#fffae6" data-local-id=3D"665d5234b69c" class=
+=3D"confluenceTd">
+<p local-id=3D"659398208ba7"><strong>Whys</strong></p></td>
+</tr>
+<tr data-local-id=3D"119f487d56e6">
+<td data-local-id=3D"214b9d612015" class=3D"confluenceTd">
+<ul local-id=3D"475ec1cdac9f">
+<li local-id=3D"07e4c1bf1a8a">
+<p local-id=3D"f8bea070d3de"></p></li>
+<li local-id=3D"0e7dcf1cbcdb">
+<p local-id=3D"3c458d4dce74"></p></li>
+<li local-id=3D"11589457bff3">
+<p local-id=3D"362250c4aa55"></p></li>
+</ul></td>
+<td data-local-id=3D"8c39f70742e6" class=3D"confluenceTd">
+<p local-id=3D"55fb6915ac29"></p></td>
+<td data-local-id=3D"9300a950edbe" class=3D"confluenceTd">
+<p local-id=3D"8d24172038dd"></p></td>
+<td data-local-id=3D"757447a5bf12" class=3D"confluenceTd">
+<p local-id=3D"efa18053f6fa"></p></td>
+<td data-local-id=3D"2683dd47dbda" class=3D"confluenceTd">
+<p local-id=3D"7c206999a97f"></p></td>
+</tr>
+<tr data-local-id=3D"d67b756998d3">
+<td data-highlight-colour=3D"#fffae6" colspan=3D"5" data-local-id=3D"a52d36=
+4577ad" class=3D"confluenceTd">
+<p local-id=3D"529646e47050"><strong>Final problem statement</strong></p></=
+td>
+</tr>
+<tr data-local-id=3D"7f9fc2c66eb2">
+<td colspan=3D"5" data-local-id=3D"815800689e76" class=3D"confluenceTd">
+<p local-id=3D"b0b978ebefa0"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 local-id=3D"af4899c4b6aa" id=3D"SCRUM-73:Root-causeanalysis-Solutions">=
+<img class=3D"emoticon emoticon-seedling" data-emoji-id=3D"1f331" data-emoj=
+i-shortname=3D":seedling:" data-emoji-fallback=3D"\uD83C\uDF31" src=3D"122f=
+c3557e2cd63d6362ce4efb8d6c8f9f28b4bfab436d637919eecb8fec3fdc" width=3D"16" =
+height=3D"16" data-emoticon-name=3D"seedling" alt=3D"content.emoticon.seedl=
+ing">&nbsp;Solutions</h2>
+<p local-id=3D"1323687f461b"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"c5=
+e404b7c4ff" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 170.0px;">
+<col style=3D"width: 170.0px;">
+<col style=3D"width: 170.0px;">
+<col style=3D"width: 170.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"2c2b9a950d1b">
+<th data-highlight-colour=3D"#e3fcef" data-local-id=3D"f1f8bdd9dd1a" class=
+=3D"confluenceTh">
+<p local-id=3D"2de32b455b12"><strong>Solution</strong></p></th>
+<th data-highlight-colour=3D"#e3fcef" data-local-id=3D"4352ec08a772" class=
+=3D"confluenceTh">
+<p local-id=3D"703db09a6df9"><strong>Owner</strong></p></th>
+<th data-highlight-colour=3D"#e3fcef" data-local-id=3D"8b0a8be4aef6" class=
+=3D"confluenceTh">
+<p local-id=3D"2e2bab942501"><strong>Status</strong></p></th>
+<th data-highlight-colour=3D"#e3fcef" data-local-id=3D"6699d092cd14" class=
+=3D"confluenceTh">
+<p local-id=3D"967a70b06a7f"><strong>Action items</strong></p></th>
+</tr>
+<tr data-local-id=3D"2e2a0c69b4be">
+<td data-local-id=3D"ada00bb77949" class=3D"confluenceTd">
+<p local-id=3D"61d5e9ea2598"></p></td>
+<td data-local-id=3D"cb2069fe3efc" class=3D"confluenceTd">
+<p local-id=3D"acdf9e1ea95a"></p></td>
+<td data-local-id=3D"baecd34cfc62" class=3D"confluenceTd">
+<p local-id=3D"60a84c643e5b"><span class=3D"status-macro aui-lozenge aui-lo=
+zenge-visual-refresh aui-lozenge-current">IN PROGRESS</span>/<span class=3D=
+"status-macro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-success">C=
+OMPLETE</span></p></td>
+<td data-local-id=3D"35e955c7e134" class=3D"confluenceTd">
+<p local-id=3D"a941a48ff169"></p></td>
+</tr>
+<tr data-local-id=3D"97d4a888a687">
+<td data-local-id=3D"cb5266ac2410" class=3D"confluenceTd">
+<p local-id=3D"d5934bb46a0d"></p></td>
+<td data-local-id=3D"dc2af19bd7b6" class=3D"confluenceTd">
+<p local-id=3D"832fb82a74ba"></p></td>
+<td data-local-id=3D"86e87c00b8bd" class=3D"confluenceTd">
+<p local-id=3D"ce87e1aa7654"></p></td>
+<td data-local-id=3D"7548fad99ba1" class=3D"confluenceTd">
+<p local-id=3D"6a810461ae7b"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"4342c1e991b3"></p>
+    </div>
+</body>
+</html>
+------=_Part_2_289388342.1790385743892
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/695b9df6cedf89236aec888c8fdd05d150782b160dc342a4838ae5329942316a
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAvVBMVEVHcEz/y0z/y0z/y0z/y0z/
+y0z/y0z/y0z/y0z/y0z/y0z/y0zxkCDxkCD/y0z/y0zxkCDxkCDxkCD/y0z/y0zzliTxkCDxkCDx
+kCD7uT7xkCDxkCDxkCDxkCDxkCDxkCD/y0yyiTTxkCCMaCdlRxuCYCTFmjr8wETylCOfeS31w0n9
+xEe8kTf1oi54WCHsu0b4rjZvTx73pzHiskP7uT6VcCr6tTz1nSn5sTn+x0n8vEHPoj3ZqkCogTDz
+lyZJUBfDAAAAIHRSTlMAUCDfYO+AEM+/j59Az68wEJ8wQHBQv98gz49g769wgLdoNu0AAALWSURB
+VHhezZjZVqNAEIYxITREjTpus08v7GTdF5f3f6whodEORbUNxwu/S49+p/7qKmi0NJBbZ+BRiTdw
+bonVgs6dSwHuXaehxvYogmc30XSphq6p6gxogOrMQEMG1IAB+bCcHjWi90FRfWpMXxfrvBAsmBj7
+B8ar4QQ1nRPUU0zOcOyrBE+YySVaT+hXWTQ0yVysCCVeGFsFR9Eznk7X5zTwg7fOpKHwg7RRx89o
+K8AUdHrtRL3qFnu0JV6LYJOh7P5MsAUSDuxpmuQndzpBia8yZqncYNXjAE9x8KEq8ivMZFWOriAm
+f1c9+VkpEKIwrUBJNq2SbwkoacFY4Q8ofTrkTGiBbZW4IJkvYaeBZ+8/nbBhWa5bejq0yjMUqWs4
+pqd0YKtL6kWs9FdEDkxWEkjRk5FIZiMUEoIMOhEl+FQnclLwHsHVdWgdoRDJBJmKsCpyTPYVnqZA
+Ntel5ixWs0CeJOw2/QS+poh8HREeLZouP0W05Jy/Rp8gGvGcuJGpfiDn/MDmOMohyxk+p3qPW78i
+a35kqdwn5Fscw6tf2qwQzanwVRJc5SCPkUIU08Q/5UV/A+ggIr5Lh3l7DjCBmtSHtouI9oo7Pd7j
+BNJr5AYaQVFOytBsfSm6gscPRTmTSbasnfkr9QUJC+KVOrfz1+NhIsnAKzuKpWf0LtlPRzEvyWgJ
+eGWTnvI30lMm2y3nG2lAEvdI3bVmzUu2eZp1ngaQwWmEJUX8DZkGMMUKUruUxVxLPNpqOqRs7obj
+vM7XGbKv4Hq8xyQbIIHXYzXcCK1G0cBg8FOEo4yafIx4EcfBH2gQ8kPT6UYfbBe4aKrxQL41a5FH
+LAx8ECOkzwiXqGkO5se2NPw0zuaBOTRs0haUo+cBW5ETjQO6bDoA8U79Xw2xDLjRj1G3f2WZcX2J
+ibpe3wYdbmy6t5pzDdP9/mW14uJRtTz++fvdasvFTRHw4d+9seQ/xqXp+/TYvsUAAAAASUVORK5C
+YII=
+------=_Part_2_289388342.1790385743892
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/122fc3557e2cd63d6362ce4efb8d6c8f9f28b4bfab436d637919eecb8fec3fdc
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAM1BMVEVHcEx3slV3slV3slV3slV3
+slV3slV3slV3slV3slV3slV3slV3slV3slV3slV3slV3slXeF2vCAAAAEXRSTlMAQGCAv58wEN//
+71Agr3DPjxgMFrEAAAFBSURBVHgB7dXXgoMgEIXhQ1E4VN//Zbc3sxPDRC797naT/DYYMZmxzvl3
+i7MrnhPsErmTFgO9nCjw+tMqlSILtUaRgZqlJGJWyUJvoaBCL3QKYobaSpEP0HIUJQMtz0nrqaRZ
+pUxOWpmWshRmleqpSVArf2RoFf9nBbVT284siWS3+7Fgsbdat/h3zmWDxyq/9N1pb5E7fcs4FhK/
+lN//LRTEMrhx3PH2pgtjp/R7bWInreODKuxOUd2BudknkYKMAfubVCjYVNOl/p7gjRgwYuMnf3dC
+ZOXkvHerPcaY31DwFBR1qHQKnPr10hIFHcN4pAcM03f0IR9wIhQTP6UGlX9XUz5naAs4E6oBzzp4
+2jr6pyQrwiv39BmtmBNymBPymBQqk0IOk0JhVghX6ApdoSt0ha6QWuKHhLNK829awQOvu7AtoMhJ
+WZYAAAAASUVORK5CYII=
+------=_Part_2_289388342.1790385743892
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/f82ac11f739c0d60b6cde73f5aadcffa114f9788b550cde0fb29794ba7e3e044
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAPFBMVEVHcEzM1t3M1t3M1t3M1t3M
+1t2Zoqg9REgpLzPM1t3M1t3M1t3BaU/BaU/BaU/CcFjgtKf////M1dqZqrWLZiLOAAAADnRSTlMA
+IJ/v/zD///8QUN9Q360w504AAADiSURBVHgB7dhVgoUwEERRIIVrw/7XOoI7HRl9fRdwgKS+8J7y
+AwWowPcsCxX6VGjn+ApRnCRxBOVbQQGipC9CYAUpxAMUQ9k4KZCMAZ52WY6lBZrLM6aDVcunreNJ
+OVYth70uZ57Luun6t90BRVn11WBUDZXFiVNNcaG+o1SaQeUBqsyg6s9ADRGBERE1txDxIfprELPf
+BgnUdie1BlB3mjPoxz6Nn+zovtbw+o99I2T/abKjv78j2ZHsSHYkUOvqsLvT3EPmnyY7aohdcwMZ
+9Beg0swpD1BhBhWnP1m0KxfnHV+T0IbfZ3ihAAAAAElFTkSuQmCC
+------=_Part_2_289388342.1790385743892--

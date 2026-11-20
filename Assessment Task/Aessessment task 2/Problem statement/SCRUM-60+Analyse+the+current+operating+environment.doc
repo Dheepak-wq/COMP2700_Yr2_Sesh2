@@ -1,0 +1,372 @@
+Date: Sat, 26 Sep 2026 01:20:45 +0000 (UTC)
+Message-ID: <770726170.1.1790385645838@6e8eedfd7609>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_0_1136881136.1790385645828"
+
+------=_Part_0_1136881136.1790385645828
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SCRUM-60 Analyse the current operating environment</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SCRUM-60 Analyse the current operating environment</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"cf=
+8540ed-c90a-4e54-852e-44078d18812d" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"d4615c4d-ca52-4e33-9dd3-d0ab1d833196">
+<th data-local-id=3D"195c2574-8ca0-4a6c-b16d-3ab091cfee81" class=3D"conflue=
+nceTh">
+<p local-id=3D"1a60fc10c167">Operating area</p></th>
+<th data-local-id=3D"c2663579-a2dc-4b9d-983c-68f4f5d3f893" class=3D"conflue=
+nceTh">
+<p local-id=3D"08da838311e6">Current method</p></th>
+<th data-local-id=3D"84b17f4a-961b-4943-b970-f3591fcf9f54" class=3D"conflue=
+nceTh">
+<p local-id=3D"cab7dfc6d5dc">People involved</p></th>
+<th data-local-id=3D"fd38328f-4475-4005-b0b4-98caf87ef4fb" class=3D"conflue=
+nceTh">
+<p local-id=3D"84d97e5059f4">Information used</p></th>
+<th data-local-id=3D"136d4529-1440-4450-b6e4-c73849bfdce9" class=3D"conflue=
+nceTh">
+<p local-id=3D"fe9219f89b85">Current limitation</p></th>
+<th data-local-id=3D"6b7d2655-a01d-42cd-98ca-e9c2ffaaca57" class=3D"conflue=
+nceTh">
+<p local-id=3D"fa21b1cb5744">Evidence</p></th>
+</tr>
+<tr data-local-id=3D"4eb4d527-44f9-457e-bd88-6654427cceca">
+<td data-local-id=3D"00d04f27-dc53-4765-8957-ea398c304b4c" class=3D"conflue=
+nceTd">
+<p local-id=3D"97196c92b527">Club information</p></td>
+<td data-local-id=3D"4e6ef2cb-8acc-4200-8c29-4716b67ebee1" class=3D"conflue=
+nceTd">
+<p local-id=3D"619bec189484">Spreadsheets and shared drives</p></td>
+<td data-local-id=3D"806301de-840e-46d8-8362-8f4ed800e1f3" class=3D"conflue=
+nceTd">
+<p local-id=3D"feb64e9ff64e">ActiveWest staff and clubs</p></td>
+<td data-local-id=3D"0ee4cb94-1081-4edb-8b1b-08f4efe9acb0" class=3D"conflue=
+nceTd">
+<p local-id=3D"3c2c829c573b">Club records</p></td>
+<td data-local-id=3D"287d9163-833e-4dc9-a4e9-bbce8f52cdf3" class=3D"conflue=
+nceTd">
+<p local-id=3D"d4556ebf1876">Information is held in multiple locations</p><=
+/td>
+<td data-local-id=3D"f1196460-3568-473e-bbe5-b4c50caf5773" class=3D"conflue=
+nceTd">
+<p local-id=3D"f72ba6e7d881">Client scenario</p></td>
+</tr>
+<tr data-local-id=3D"d61dad61-9214-4dda-9e64-88f6b2d4d2aa">
+<td data-local-id=3D"00b8e6fa-c43b-4608-bf1f-bed0e9314cfd" class=3D"conflue=
+nceTd">
+<p local-id=3D"26adf96ea2ab">Communication</p></td>
+<td data-local-id=3D"63bf68dd-d784-4cd9-b9f5-0d757cd7864c" class=3D"conflue=
+nceTd">
+<p local-id=3D"75083099b23a">Email and separate online tools</p></td>
+<td data-local-id=3D"81aa9c07-e5b1-4c5b-bbf5-a795ef5189e9" class=3D"conflue=
+nceTd">
+<p local-id=3D"c1def56f14c3">Staff, clubs and volunteers</p></td>
+<td data-local-id=3D"edf165b8-2b82-46d4-8f23-44dfcbc76a1b" class=3D"conflue=
+nceTd">
+<p local-id=3D"fbab347c8bab">Messages and updates</p></td>
+<td data-local-id=3D"f70944b7-ebe2-417f-894e-54d425d34efd" class=3D"conflue=
+nceTd">
+<p local-id=3D"e7e5d92af74b">Communication records are distributed</p></td>
+<td data-local-id=3D"8cdad09b-fabe-4d18-aace-7506f7ec55a6" class=3D"conflue=
+nceTd">
+<p local-id=3D"0de2ea2779e7">Client scenario</p></td>
+</tr>
+<tr data-local-id=3D"4d205473-5ef9-4446-af33-c2ead295116b">
+<td data-local-id=3D"bb8206f6-15d7-4d0b-abb5-af0cc0d7f4a8" class=3D"conflue=
+nceTd">
+<p local-id=3D"fc8f4458476a">Forms and requests</p></td>
+<td data-local-id=3D"316ac21d-53a5-4da8-a082-7cb72b47ed07" class=3D"conflue=
+nceTd">
+<p local-id=3D"2adf07d27d9c">Paper forms and online tools</p></td>
+<td data-local-id=3D"bb3d4280-a047-4f91-bf69-327323920dde" class=3D"conflue=
+nceTd">
+<p local-id=3D"53dffac44f54">Staff, clubs and volunteers</p></td>
+<td data-local-id=3D"84a8f13d-f1e5-40e0-9afe-0e8ef63b338c" class=3D"conflue=
+nceTd">
+<p local-id=3D"3174460918a9">Requests and submissions</p></td>
+<td data-local-id=3D"99dc03b7-51d4-4985-a087-11a15a82e4a8" class=3D"conflue=
+nceTd">
+<p local-id=3D"ed1ec59ee958">Different formats require manual handling</p><=
+/td>
+<td data-local-id=3D"60219108-8520-4467-be31-3ac017043537" class=3D"conflue=
+nceTd">
+<p local-id=3D"d1854bfd6abf">Client scenario</p></td>
+</tr>
+<tr data-local-id=3D"b45341ec-1386-4110-b756-511dc0b982c6">
+<td data-local-id=3D"bfe771a0-e8d1-4fb7-829f-a49a3a822beb" class=3D"conflue=
+nceTd">
+<p local-id=3D"c1201e181f02">Events and schedules</p></td>
+<td data-local-id=3D"ef185b54-41b5-44f7-bf61-6f704837f3f9" class=3D"conflue=
+nceTd">
+<p local-id=3D"ab92deaa0b6d">Spreadsheets, email and online tools</p></td>
+<td data-local-id=3D"c650a7ee-f546-4f92-8a19-ece63b899d74" class=3D"conflue=
+nceTd">
+<p local-id=3D"9fef4513d015">Staff and clubs</p></td>
+<td data-local-id=3D"6301a7c1-5b69-4add-9ca2-feeb32a12753" class=3D"conflue=
+nceTd">
+<p local-id=3D"c9bd9beaae80">Event details</p></td>
+<td data-local-id=3D"f5f003a2-6da6-4c58-97e2-a7a6a593cf83" class=3D"conflue=
+nceTd">
+<p local-id=3D"53aa105f6112">Information is not centrally managed</p></td>
+<td data-local-id=3D"c87b83ea-4b13-4c48-bf2b-ecdbe7dc2b12" class=3D"conflue=
+nceTd">
+<p local-id=3D"03e2194d9889">Client scenario</p></td>
+</tr>
+<tr data-local-id=3D"dbb99cd4-870e-4069-9052-275aa2213709">
+<td data-local-id=3D"8f4c1a13-7d7b-4df2-81ed-8349cfa81dbe" class=3D"conflue=
+nceTd">
+<p local-id=3D"a0e99095b00e">Reporting</p></td>
+<td data-local-id=3D"6e92b830-201a-4c71-8a59-23b8b43f197e" class=3D"conflue=
+nceTd">
+<p local-id=3D"a1e3f06530cb">Manual information collection</p></td>
+<td data-local-id=3D"f1293f26-9fe7-492d-96a7-bc8f4f632971" class=3D"conflue=
+nceTd">
+<p local-id=3D"a43f05cb3ff9">Staff and management</p></td>
+<td data-local-id=3D"b2662a78-44e0-43c2-8d49-7d9a38c86537" class=3D"conflue=
+nceTd">
+<p local-id=3D"7e9596f10751">Operational records</p></td>
+<td data-local-id=3D"c3f01190-3cef-49c4-814d-1c8d9c3095c7" class=3D"conflue=
+nceTd">
+<p local-id=3D"5264d0cdf50b">Information must be checked and combined</p></=
+td>
+<td data-local-id=3D"278889c0-ecf9-48e7-91c1-73ac22a73ff6" class=3D"conflue=
+nceTd">
+<p local-id=3D"dad1e652dde6">Client scenario</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"56744af43a48">Current-state summary:</p>
+<p local-id=3D"430d22760301">ActiveWest currently manages operational infor=
+mation through spreadsheets, shared drives, email, paper forms and separate=
+ online tools. Information is distributed across different locations and pr=
+ocesses, requiring staff and volunteers to locate, verify and combine recor=
+ds when completing administrative and reporting activities.</p>
+    </div>
+</body>
+</html>
+------=_Part_0_1136881136.1790385645828--

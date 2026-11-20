@@ -1,0 +1,545 @@
+Date: Sat, 26 Sep 2026 01:23:35 +0000 (UTC)
+Message-ID: <93491488.3.1790385815415@5465f03a35b2>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2_1948818585.1790385815409"
+
+------=_Part_2_1948818585.1790385815409
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SCRUM-79: Finalise and approve the problem statement</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SCRUM-79: Finalise and approve the problem statement</h1>
+    <div class=3D"Section1">
+        <div class=3D"plugin-tabmeta-details">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"f0371cf5bd46" class=3D"conf=
+luenceTable">
+<colgroup>
+<col style=3D"width: 133.0px;">
+<col style=3D"width: 513.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"0a814ab8ed6c">
+<th data-local-id=3D"9b97141eb3f1" class=3D"confluenceTh">
+<p local-id=3D"1110594a14c4"><strong>Status</strong></p></th>
+<td data-local-id=3D"414c821b9126" class=3D"confluenceTd">
+<p local-id=3D"42b59e70b0a4"><span class=3D"status-macro aui-lozenge aui-lo=
+zenge-visual-refresh">NOT STARTED</span> / <span class=3D"status-macro aui-=
+lozenge aui-lozenge-visual-refresh aui-lozenge-current">IN PROGRESS</span> =
+/ <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-lo=
+zenge-success">COMPLETE</span></p></td>
+</tr>
+<tr data-local-id=3D"ff6a3f7a649f">
+<th data-local-id=3D"fbbf090d5be6" class=3D"confluenceTh">
+<p local-id=3D"238d52455a50"><strong>Impact</strong></p></th>
+<td data-local-id=3D"4b5e5e046713" class=3D"confluenceTd">
+<p local-id=3D"1e629dc1d645"><span class=3D"status-macro aui-lozenge aui-lo=
+zenge-visual-refresh aui-lozenge-error">HIGH</span> / <span class=3D"status=
+-macro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-current">MEDIUM</=
+span> / <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh =
+aui-lozenge-success">LOW</span></p></td>
+</tr>
+<tr data-local-id=3D"998aa2b733b2">
+<th data-local-id=3D"1a6ffb187e30" class=3D"confluenceTh">
+<p local-id=3D"d27e247a7aae"><strong>Driver</strong></p></th>
+<td data-local-id=3D"74b0f5c75a71" class=3D"confluenceTd">
+<p local-id=3D"b3d33e3e5c25"></p></td>
+</tr>
+<tr data-local-id=3D"c1512bfbe7fb">
+<th data-local-id=3D"dcb96634b823" class=3D"confluenceTh">
+<p local-id=3D"81a1d0363b7a"><strong>Approver</strong></p></th>
+<td data-local-id=3D"a9debb884911" class=3D"confluenceTd">
+<p local-id=3D"6dcc0a1191df"></p></td>
+</tr>
+<tr data-local-id=3D"f6260b988ee6">
+<th data-local-id=3D"1954de1b8e1f" class=3D"confluenceTh">
+<p local-id=3D"19a6e2ad3d19"><strong>Contributors</strong></p></th>
+<td data-local-id=3D"d657f5aaf579" class=3D"confluenceTd">
+<p local-id=3D"719f196c8eef"></p></td>
+</tr>
+<tr data-local-id=3D"16b364238a51">
+<th data-local-id=3D"08c20cb19b30" class=3D"confluenceTh">
+<p local-id=3D"37f385bfa625"><strong>Informed</strong></p></th>
+<td data-local-id=3D"9cfa6b219a2c" class=3D"confluenceTd">
+<p local-id=3D"bfa05a35e7c8"></p></td>
+</tr>
+<tr data-local-id=3D"acb8465f9151">
+<th data-local-id=3D"b2ae6a53caa2" class=3D"confluenceTh">
+<p local-id=3D"e4c5b387de94"><strong>Due date</strong></p></th>
+<td data-local-id=3D"9ce8e971f6a2" class=3D"confluenceTd">
+<p local-id=3D"4bfce24637c8"></p></td>
+</tr>
+<tr data-local-id=3D"8381b9e6c4e0">
+<th data-local-id=3D"370dfba9db43" class=3D"confluenceTh">
+<p local-id=3D"7bfd4dcdd8d5"><strong>Resources</strong></p></th>
+<td data-local-id=3D"1161bb3476c5" class=3D"confluenceTd">
+<p local-id=3D"368bf77c3b0a"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2 local-id=3D"56a085c28844" id=3D"SCRUM-79:Finaliseandapprovetheproblemst=
+atement-Background"><img class=3D"emoticon emoticon-blue-star" data-emoji-i=
+d=3D"1f4d8" data-emoji-shortname=3D":blue_book:" data-emoji-fallback=3D"\uD=
+83D\uDCD8" src=3D"6a94a7b3f48978c2692d84dc00359e8cffad47404da54406080cb03dd=
+3c3068a" width=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D=
+"(blue star)">&nbsp;Background</h2>
+<p local-id=3D"b7707a701c31"></p>
+<h2 local-id=3D"92d871d90204" id=3D"SCRUM-79:Finaliseandapprovetheproblemst=
+atement-Relevantdata"><img class=3D"emoticon emoticon-books" data-emoji-id=
+=3D"1f4da" data-emoji-shortname=3D":books:" data-emoji-fallback=3D"\uD83D\u=
+DCDA" src=3D"dead16ff6669d833e52960e6e3a339dbbb1cdc3e3f838b8098d7cebcd76bf1=
+6f" width=3D"16" height=3D"16" data-emoticon-name=3D"books" alt=3D"content.=
+emoticon.books">&nbsp;Relevant data</h2>
+<p local-id=3D"5e8af380ee90"></p>
+<h2 local-id=3D"9ab39fc0ce46" id=3D"SCRUM-79:Finaliseandapprovetheproblemst=
+atement-Optionsconsidered"><img class=3D"emoticon emoticon-blue-star" data-=
+emoji-id=3D"1f308" data-emoji-shortname=3D":rainbow:" data-emoji-fallback=
+=3D"\uD83C\uDF08" src=3D"281c623d4a7035fe3fa21c00123b470f679c28d15276e6a2d4=
+51d62a6dbec75b" width=3D"16" height=3D"16" data-emoticon-name=3D"blue-star"=
+ alt=3D"(blue star)">&nbsp;Options considered</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d0=
+65ad6805fa" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 157.0px;">
+<col style=3D"width: 288.0px;">
+<col style=3D"width: 313.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"1d8375a16488">
+<th data-local-id=3D"88f33cea1ce0" class=3D"confluenceTh">
+<p local-id=3D"aad16055204e"></p></th>
+<th data-local-id=3D"2a577b61d082" class=3D"confluenceTh">
+<p local-id=3D"22793fbe5463"><strong>Option 1</strong></p></th>
+<th data-local-id=3D"bc328d4af5f9" class=3D"confluenceTh">
+<p local-id=3D"d47a15beabfe"><strong>Option 2</strong></p></th>
+</tr>
+<tr data-local-id=3D"22b5a99ed803">
+<th data-local-id=3D"009c3e5d284f" class=3D"confluenceTh">
+<p local-id=3D"f3a9af960c8a"><strong>Description</strong></p></th>
+<td data-local-id=3D"71a536c078b9" class=3D"confluenceTd">
+<p local-id=3D"d1c92e30b8be"></p></td>
+<td data-local-id=3D"7362b62f9c17" class=3D"confluenceTd">
+<p local-id=3D"88e0a1aa8f10"></p></td>
+</tr>
+<tr data-local-id=3D"e20c88ec8058">
+<th data-local-id=3D"f7bcfd224949" class=3D"confluenceTh">
+<p local-id=3D"a6fcd0a31998"><strong>Pros and cons</strong></p></th>
+<td data-local-id=3D"d6fe42ca6c78" class=3D"confluenceTd">
+<p local-id=3D"31626671f078"><img class=3D"emoticon emoticon-plus" data-emo=
+ji-id=3D"atlassian-plus" data-emoji-shortname=3D":plus:" data-emoji-fallbac=
+k=3D":plus:" src=3D"47e666679d1da80e407bf5fbf713bf440a4447b263f7bfb51e527ed=
+e4223d2ca" width=3D"16" height=3D"16" data-emoticon-name=3D"plus" alt=3D"(p=
+lus)"></p>
+<p local-id=3D"79f812e4a902"><img class=3D"emoticon emoticon-minus" data-em=
+oji-id=3D"atlassian-minus" data-emoji-shortname=3D":minus:" data-emoji-fall=
+back=3D":minus:" src=3D"c21e987f9296b6d4e199af87bbe96160d328fb5fd7ebceea0c9=
+ef626f6ca6b5a" width=3D"16" height=3D"16" data-emoticon-name=3D"minus" alt=
+=3D"(minus)"></p></td>
+<td data-local-id=3D"3963981002c1" class=3D"confluenceTd">
+<p local-id=3D"ffa1a24e7816"><img class=3D"emoticon emoticon-plus" data-emo=
+ji-id=3D"atlassian-plus" data-emoji-shortname=3D":plus:" data-emoji-fallbac=
+k=3D":plus:" src=3D"47e666679d1da80e407bf5fbf713bf440a4447b263f7bfb51e527ed=
+e4223d2ca" width=3D"16" height=3D"16" data-emoticon-name=3D"plus" alt=3D"(p=
+lus)"></p>
+<p local-id=3D"f7275cf3ee33"><img class=3D"emoticon emoticon-minus" data-em=
+oji-id=3D"atlassian-minus" data-emoji-shortname=3D":minus:" data-emoji-fall=
+back=3D":minus:" src=3D"c21e987f9296b6d4e199af87bbe96160d328fb5fd7ebceea0c9=
+ef626f6ca6b5a" width=3D"16" height=3D"16" data-emoticon-name=3D"minus" alt=
+=3D"(minus)"></p></td>
+</tr>
+<tr data-local-id=3D"fdf6f2372c54">
+<th data-local-id=3D"eed531970745" class=3D"confluenceTh">
+<p local-id=3D"b51e5ff84fc4"><strong>Estimated cost</strong></p></th>
+<td data-local-id=3D"7e7792d8f9da" class=3D"confluenceTd">
+<p local-id=3D"f27c3e2e519f"><span class=3D"status-macro aui-lozenge aui-lo=
+zenge-visual-refresh aui-lozenge-error">LARGE</span></p></td>
+<td data-local-id=3D"200888ead3d2" class=3D"confluenceTd">
+<p local-id=3D"34e36a65404a"><span class=3D"status-macro aui-lozenge aui-lo=
+zenge-visual-refresh aui-lozenge-current">MEDIUM</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 local-id=3D"0e95bae03b8f" id=3D"SCRUM-79:Finaliseandapprovetheproblemst=
+atement-Actionitems"><img class=3D"emoticon emoticon-white-check-mark" data=
+-emoji-id=3D"2705" data-emoji-shortname=3D":white_check_mark:" data-emoji-f=
+allback=3D"=E2=9C=85" src=3D"f79f3ccb1f69875ddd2dd69282e91d0eb322127ea75166=
+99dc0b6e93e38af914" width=3D"16" height=3D"16" data-emoticon-name=3D"white-=
+check-mark" alt=3D"content.emoticon.white-check-mark">&nbsp;Action items</h=
+2>
+<p local-id=3D"7f6cd8c45c65"></p>
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2916363">
+<li data-inline-task-id=3D"1"><span class=3D"placeholder-inline-tasks"></sp=
+an></li>
+</ul>
+<h2 local-id=3D"5b7b4f4cbb38" id=3D"SCRUM-79:Finaliseandapprovetheproblemst=
+atement-Outcome"><img class=3D"emoticon emoticon-blue-star" data-emoji-id=
+=3D"1f31f" data-emoji-shortname=3D":star2:" data-emoji-fallback=3D"\uD83C\u=
+DF1F" src=3D"37928dc6d2fdaa6d81f1c2a9ada905db2b8cf76fde2b0af9f420f5766b972e=
+93" width=3D"16" height=3D"16" data-emoticon-name=3D"blue-star" alt=3D"(blu=
+e star)">&nbsp;Outcome</h2>
+<p local-id=3D"7254c650874a"></p>
+    </div>
+</body>
+</html>
+------=_Part_2_1948818585.1790385815409
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/47e666679d1da80e407bf5fbf713bf440a4447b263f7bfb51e527ede4223d2ca
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AABuugAAbroB1t6xFwAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1s
+bnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpS
+REYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMj
+Ij4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6
+dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmll
+bnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAg
+PC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAhRJREFUOBGlU7FqVEEUPXfevH0xWQMihgSj
+YLWxDGhhYWGnfyCxjI3EH3CxCCjxBxQbUyr5ArWRLQ1EsLDRakETtLHRVbJ582Y8Z96uYGsG5nG5
+c8+995x7n0Fnc9Pxxmw/vHkJhVuH2TWkdCH7zIa0B2jiNu7vvMu+Ccb+AW+tPUZZbPACdYOyaXPW
+hcPUR/8T9F/cnSaxbOjz6NYrdKvrGB0K1XhYkZCIBAwWA1JDs0B3xmE0fo17z2/ojaV4VPnkzBrB
+Y0Z7OosmRUtmSHyOtAtjQpU7CkdMsoKrF8/gzYeXBnGuyj0E9stSRNiy89j/8Rnvbz9Veqw+u4Pl
++fPYZx85gq2xjMO4vuyzYOIcmoY9l0sEz5k4z+Lc6cWcQLZ8Svw1BiOXQE0cMeukSrUpmDgH0lRl
+ATD6iDG7zYf2Jxn1b2BuEd6KIhAjrNeopHaUYKyitlV5HGoszJ/K+IP+Lipf4sv3b1jdecD+kxOm
+JjarnKP+8yMKQ86550NkE42TYFMKB/23Oe3ZrStAd+UvBQ4kEuO4WENRGFCQXpCI5twS1ZZg4lz5
+TtsXwb3ZBfxKUSJSQYrVijhQlm2JyFM0HKJGpUAJJs66suXTm2IUmzHEtpvYLtLGZJE6HKdxkajy
+RCLa7K4FJ2iRKvw8zCt97FXWX9iW0W4rqzbsRKcM3jnHVdaVLV9+U8zkPxC27eAYv/Mfv4kgfoJC
+XngAAAAASUVORK5CYII=
+------=_Part_2_1948818585.1790385815409
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/281c623d4a7035fe3fa21c00123b470f679c28d15276e6a2d451d62a6dbec75b
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAwFBMVEVHcEzrICfrICeHZ6zrICfr
+ICfrICeHZ6yHZ6zrICfrICfrICfrICfrICfrICfrICeHZ6yHZ6yHZ6zrICeHZ6yHZ6yHZ6wxcoBv
+Z6fzliTuWiOIoEL5sTjwdyHvaSLuSiREZ59ckD/8vUH1nSn3pzEna5AtZ5vBtUfrJyf1x0tQZ6Lr
+xErtOCXbvkmZpkRrlkCjqkWurkZ7m0FBfWnxhiBkZ6b+xkhIgl0iZ5j/y0xVi0mHZ6zrICfsLiZ6
+Z6rxkCBdhC23AAAAF3RSTlMAIO/P32B9QnjFMJ8Qr0BQKO+/jxDfrz5TEZQAAAMASURBVHhevZYH
+juJAEEUXBjCwhIEJjuSc88Sw97/VWov5VHU5tLC0/wBPP1RL/SuFKrV8oVoqff3TrZBaoZr7gm4E
+lQuBi1Sg8gOcpABlQEkFqiNRGlAlH2Jm2XHardbxjy9dTCErGG0fAGmCFDffDKIPquU4pUUB+qBM
+lWIERRtEy5k6IpEuKFMimdoCYA88r99/efeVcDnZaMzQ8wlQPOh3VCh72H9XpBercxQUfVA5G5pq
+AIomKB9qZ4haVCVypu04zGqyc919z1dSzctjFGY22foEKIIjY9msm8UkgEDxHAd2POoFFKIIDuqR
+Uy3Wm16IYnqettAOaXfdC1ccR7azUDEfrwfTNN98yTsER8Sa7RSIOXqDxLvIqhyMvtpQysEEIxR0
+eV8ttZ7ZlmBeQYEiBmuDAzvEDBJFguq4H4Uz6UHAcIUW1FE562soFTPuzucny7JkQXhf4MxcpDIV
+yOnnMxDlFILBAs7gwtmHphrPrU8iEQxF2y8qh9rpgiJBVVaQ3QdHxuoiUQioxoN54NCWJUaCcghG
+i3YvHGDGSqi752LRMAz1rS75w1gLzpxBiob4twSGgmB93CE4ws5T8R4AMb3DCloJzhXThBduKIum
+sTyKBqd7zSQwvCGHBdsGu49UTqMoAHyyb3bSK9yPwmk+RnLqIYZmmzNIcIQd9lrREE5oh4IYp2HE
+cDLM0LnpxQYF0b2eyORSD2cQM7RmwcY/wVqyHll1hza04MFOgZ94Tpm+sgEzNGLvooFcccmmOGrV
+EApCzxrJbNwiMWRhd51kLVSNG3plyzcTv+RIhqonzNB5scZjEqgkk7nCkAwmRTcb0qpNaugukVPD
+NSrJPmAIi2lUtMTzQLIDbhFNx6qKinCNNNkYhpKUYxXxZDjqp2ROBVeEinZ0MwuT6XXNKpLJ7pNB
+edK1LSvqku31RxvQK8JmSKYzmkO6XsmKDA1QiYA8dI0rwg9BE9QmoC1AOhVBcn1XdP2cHjRH14mS
+T3Z/Mwj3iDNS1jfSg6z/D/oLFNx1IJku/L0AAAAASUVORK5CYII=
+------=_Part_2_1948818585.1790385815409
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/dead16ff6669d833e52960e6e3a339dbbb1cdc3e3f838b8098d7cebcd76bf16f
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAwFBMVEVHcEywfm8iZpmSZsz0kAxF
+R470kAyInLlFR45VN4hVrO70kAwiZpmZqrX/rDNVN4jM1t2zwcmZqrVVN4hVN4jM1t0iZpkiZplV
+N4jM1t2zwcnM1t3M1t3/rDOZqrXM1t2SZsz0kAxVrO5VN4giZpm+ytNjQpiGXL76nR81gLmzv8op
+caaYnbr8pCh6U7H1kg5Po+NGmdZmruSTdMijsr2WiMGCq8njtGvfxp2CvOihgtCYxOSuzOGsqp3W
+zr2/q4TmvTDhAAAAHXRSTlMAEGiA71B7IDDPgLffs4DvvzCAv4Dvr7+vp1CPcDY4R/UAAAGcSURB
+VHjazddpQsIwEAVgULCoiCyigpLSBdCKglL3hfvfSo06tiVdXiY/+g7wMZNlUiolTb3pf+Vy6cLZ
+izlbvnRcnUSdhnSuXDZ0IqFbDFC0ZkUKuhNgOsoVwh3RjUDH/509wNBBBGpKaEkQlgjky8glEmJi
+g1FD0mFAtGmhDcdSVhTgUFUJUWfcNbLxqLf/DYfUB/IVdtopVwSGzlIu7TMKdUyPEf5gMzZqzQ9/
+yk7NSeRiVDwtcvadZK5HSKgeR1UPDlU3+lpgTiunoLUomGH2Cj3Cj0BtA5IFvcOPgKOGBB9a/EBh
+4ZmZA9mFk91aAECZi/0BQNnbX9gZ5BzIp6LQ0PQV4V9aY2PE+GBr7Hq/mc7GcLYr5BySM9YJQVSP
+N2NBdY9XELV2Gi9oJcBYf8fRo8gfmKNQV93ZSvtr+4igm2/oXhvqxZdoDn9u92nzE1Cg+QGYWGsh
+bENQaAoK2NCUB1nJiia6/0j4UKV8kPpAakM9LtRPubQw1E4ZIzA0SBlsAQqd06iN9/aCQpbp4c9/
+jow/kPwnu4T5BJW4GMFYiZIYAAAAAElFTkSuQmCC
+------=_Part_2_1948818585.1790385815409
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/f79f3ccb1f69875ddd2dd69282e91d0eb322127ea7516699dc0b6e93e38af914
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAARVBMVEVHcEx3slV3slV3slV3slV3
+slX///93slWAt2D3+vSRwHXM4r+72aqz1J/u9eqIvGrm8d+qz5WZxYDd7NXV58rE3bWiyor8Z4cF
+AAAABnRSTlMAYO8gz79WeQLOAAABcUlEQVR4Xu3YWY6DQAwEUEjA7pV1uf9RR1lGcjqtFGr3SPOR
+OsCD+imEm1vanhXp2+aRa8fKdNe7c2F1Ljep4wrpmqblKmmbvg7UN1wpfwZ9IbO4GtDoicgGNTRa
+usdroZWemXVQpN9MCMLFnlFBG9WBDuFsCshYAR0KaEteCEO4mDXlkBkEFLkc2oWzcjm0yGJjAimK
+FUMhKVYKORJxCmgSTuBySBabGECniymgVTg7l0NROIMph+Sa0cIAUhQDECiGILxmGHLekvUGrBmG
+jseTrcNrlofSBtaBYgCKRLlvqE/WDEMrCQmsGYaklF8zDO0k4z/MNIBGSqR8MQxxeJeGzJphiOOr
+tJr8mmGI51dpkqwD0EfpQzEA8WLzzsAISuPy0gIhLOXXDEM8Tu/FTAnEZsoVwxCWPBdCbDzhNcNQ
+ukIHKyAhbayCOIhiKohne3MGx1qITQxh/n+/ol+o2pGl2tmn1iGq2mms3rGu2vnwB/HSjdEb7tSV
+AAAAAElFTkSuQmCC
+------=_Part_2_1948818585.1790385815409
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/37928dc6d2fdaa6d81f1c2a9ada905db2b8cf76fde2b0af9f420f5766b972e93
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAY1BMVEVHcEz/2YP/2YP/rDP/rDP/
+rDP/rDP/rDP/2YP/rDP/rDP/2YP/2YP/2YP/rDP/2YP/2YP/2YP/rDP/2YP/2YP/2YP/rDP/rDP/
+rDP/rDP/2YP/2YP/rDP/2YP/rDP/2YP/rDNN5vrUAAAAH3RSTlMAIO8g70Bgv4CfEL/PYI8QjzBw
+UK/f34BQr0Cfz3Awq2JpyAAAAmVJREFUeF7N2NuS6iAQhtEfEkLO5xiP0/3+T7mnqKgMZQayuZl1
+Hb+0oq0l/FrmFgeJPG/gGPnbCEeT5wK7BklEywBbmfK3tIRtWIhIDtgzE7kXYGVjdW/4bcYeSUb9
+cyAjTfBWkyHhcC+gHC8Fbwq85GRQhT39FpIdNgm/JNh0cgv12CPIHangF+0ORALBIyVsUSEDua9S
+A0OzRcNoyDqSXV1tX6X4h7N9r7pDUElsA9lOACDCOkBXmdBkBnJkACbTqTr49c9zO7EjLbcz6xHk
+upjQyi6+mNByRagmF8j4gwIib3BIyx9dShyi7rwjzRAsyTT/4tQq/1hfWatT9kt1myl8VKqxuPMx
+98uqEtjU5cT/K21LPJ05SoGnC0fR7nsmfqIk5Qj298JXTOcLlowPctddfCmDI4vt+Ev+TnxpxEcj
+H1RgRxHfcUvhnfjSBb+6c6BT6VmRxw4+/smd4HPmIC0+6aZ8rhYiqm8DOIgabjURLdWcTx0MXCt6
+q6A5BH486AoAN7JNYesyxUS2G9CTrQFWDnAHGrL1IIucgo8NwCTJYocq62eaTwJAVHbolV0mGCmH
+UACAaaGNRENG3WBzbBM19evFFfncP4ajn5EVT8Ojn3MBF9Txz37UmtTwWTkMfDSHKY+H7lrrlF0K
+Hk5Fn2Eka3pssZVsK5SpXAWAcjw55/8rZWcSGA1JYYKZlSq8ITcDSLMmnJT2hdzMti86bM46LJS4
+GWDeFtWTMqkRHmet2wQ26f5ZANXqEYddtzUR7UGGQKyejCtiVWTkfyck/8pEbujxd46/k9uXe7Rh
+IZo7ePwD13Mw4CPmUAAAAAAASUVORK5CYII=
+------=_Part_2_1948818585.1790385815409
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/6a94a7b3f48978c2692d84dc00359e8cffad47404da54406080cb03dd3c3068a
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAq1BMVEVHcEwiZpkiZpkiZpkiZpki
+ZpkiZpkiZpkiZpk7iMMiZpnM1t0iZpnM1t07iMMiZpnM1t3M1t3M1t0iZplfnMo7iMM7iMM7iMM7
+iMMiZplVrO7M1t3h6O1ikLOswdCiusxNoeFCkc7Bz9l3nrtamsujxN3Z4efM3OhQpeZPo+OxyNjg
+5+zP2N9Ln95loM5FltM+jcg3dKJfnMpFjsaCp8PQ2eAtbZ1ql7lTqusm12cWAAAAGHRSTlMAUN/P
+IL+vYO/PcCCfzyAQv+9gMIDvYL/uJGE9AAABJklEQVR4Xu3QV27DMBBF0ZFVSDtxeiHV3FtqL/tf
+WSjyYyIBATT05CfgXcDBwwMsGWUDTUtmArqJVHs1iFrMOTLkDgETUmsOSWjXR7WYmIq+TSonReCK
+tGsxL6jVz/Yn5xxL59SFR3MrCQuNnFMVXtUNlFkodtBNSet2fWel5idpIY0QkXq3j2vTT+izpEt2
+UxfSb/RN6w6Eqd49rJpJe0DYclOWLJB63TBBavk7lPdrOnPSyhfC7t3je0IoMUD5jAuackH530MB
+ClCAAhSgAAUoQAFKuSDBBMXAA8mEB4oT4IEA/it0wgWdMUFj4IFODxBK/aCdcV7G6AAIP+jRQBfQ
+KvaBtsYZQrtE0qGvJ6Uuj6ArxVRoa5whOphIKdDO/HN91Ra+ARIL3guc4aKtAAAAAElFTkSuQmCC
+
+------=_Part_2_1948818585.1790385815409
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/c21e987f9296b6d4e199af87bbe96160d328fb5fd7ebceea0c9ef626f6ca6b5a
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AABuugAAbroB1t6xFwAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1s
+bnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpS
+REYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMj
+Ij4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6
+dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmll
+bnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAg
+PC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAbZJREFUOBGlU01LHEEQrarpmdk1IQG9BIKH
+0YM3IZD1loM3/RnBo/k52WN+R7zt3Q0EvOseQkAC60HysdMz3Z33RifEhVXQgobuqnqvPlsFkkRM
+RSLv53trb03sSFLah76iDraZqE6ixE/bp7+/UNdjtL9QeTF6/rGwdDwE3SIm8R2lSGEiA+j+dDod
+b01/fviPhFeEGD37vJ7rwdyniJABqgwH0E5IFRA22yjUrpp0Uk1/HdLSOTByB25SDTAylry30QlC
+v5y2OXzoSwwNyppL1akP6MENmAT3SUImqcjE6pRGjg0bgt/HGERdLuU62nlb/DKNwbG+QoC2HZpZ
+E/TIJXR7EdBKdZk01xJPr5dhd972Bs/8RbYILQal+w7PyrPkFJGMyKuzr1K+3pTYNJjcTTUIIpbn
+Un//Jj/egyEl88o2tRWb8yRhBrNCmp1aHfZE7HKXOa6WroRMIzCGkc0c0pwMMt2p2zagNrN3DzYR
+JbRh4MwwucmTx2jcbR91zA1D4h4HI1kptHn6EkPsv6V59CrzMzEed3veyJgb9tJpXmKoZOfhnTra
+6NP/A2K7DG4vj/rOfwHwmtn9L/rnngAAAABJRU5ErkJggg==
+------=_Part_2_1948818585.1790385815409--

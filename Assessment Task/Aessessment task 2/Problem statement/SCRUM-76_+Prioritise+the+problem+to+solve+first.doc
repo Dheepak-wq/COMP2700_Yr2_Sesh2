@@ -1,0 +1,396 @@
+Date: Sat, 26 Sep 2026 01:22:50 +0000 (UTC)
+Message-ID: <1303532399.1.1790385770747@5465f03a35b2>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_0_276007561.1790385770737"
+
+------=_Part_0_276007561.1790385770737
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SCRUM-76: Prioritise the problem to solve first</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SCRUM-76: Prioritise the problem to solve first</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"186ff0d6551b">Compare the problems using:</p>
+<ul local-id=3D"7a845009-9da9-42c0-b69e-4b1e25794517">
+<li local-id=3D"0d885a7a-57e4-49f8-887c-b9f361bedd3d">
+<p local-id=3D"3f73a1f2213f">Business impact</p></li>
+<li local-id=3D"260c8e0a-42ae-4293-9fcb-01204df9dafe">
+<p local-id=3D"4c252750fcae">Urgency</p></li>
+<li local-id=3D"1fd4bdf8-45a1-4302-98df-acf157387c71">
+<p local-id=3D"f1cc50be8ec3">Stakeholder reach</p></li>
+<li local-id=3D"505f0ccd-1e78-4a71-b6b6-cf69c272c86d">
+<p local-id=3D"cad3e754c389">Risk</p></li>
+<li local-id=3D"13106a96-f230-4e5b-8cd4-51eb3ce86707">
+<p local-id=3D"3bdad210b814">Root-cause influence</p></li>
+</ul>
+<p local-id=3D"f09ab26f4b18"></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"a709e2dc-ef38-43ba-bc67-0aa=
+299a259b6" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"ee3b3581-daad-4daa-a27f-5aded1e2af09">
+<th data-local-id=3D"549cbb1f-0756-44cb-9378-b41f06ba9132" class=3D"conflue=
+nceTh">
+<p local-id=3D"2511e8ff8a6a">Problem</p></th>
+<th data-local-id=3D"2a263685-6e8c-49c0-9239-c4dadd798398" class=3D"conflue=
+nceTh">
+<p local-id=3D"eb7e2db0ec46">Business impact</p></th>
+<th data-local-id=3D"958ef554-9ebd-417e-ab70-ccdd0ed89c18" class=3D"conflue=
+nceTh">
+<p local-id=3D"f15fff4fcb74">Urgency</p></th>
+<th data-local-id=3D"65a7822d-bb6f-4d54-b069-dec0f8c81851" class=3D"conflue=
+nceTh">
+<p local-id=3D"07d8e90475ef">Stakeholder reach</p></th>
+<th data-local-id=3D"e6652d33-8503-4674-87e2-3ccdfae8127e" class=3D"conflue=
+nceTh">
+<p local-id=3D"ff46604b1b37">Risk</p></th>
+<th data-local-id=3D"ce1f71c6-13f1-41fd-ac58-db847aff704c" class=3D"conflue=
+nceTh">
+<p local-id=3D"1b92baf59365">Root-cause influence</p></th>
+<th data-local-id=3D"97a2f70d-c8ae-4dc9-8a8c-1b8180131cb4" class=3D"conflue=
+nceTh">
+<p local-id=3D"fbd5f764b671">Total</p></th>
+</tr>
+<tr data-local-id=3D"e2eea49b-bbca-4a3f-85de-cde228c4783d">
+<td data-local-id=3D"8e73833f-2b44-4b93-ac7c-325fcd324755" class=3D"conflue=
+nceTd">
+<p local-id=3D"fdc13a6c4eec">Fragmented information and no reliable single =
+source of truth</p></td>
+<td data-local-id=3D"e154da95-5130-40c1-a6a1-0517d800054c" class=3D"conflue=
+nceTd">
+<p local-id=3D"00bcb9efc480">5</p></td>
+<td data-local-id=3D"318a0726-e2f8-4772-868b-3147de325bb7" class=3D"conflue=
+nceTd">
+<p local-id=3D"5c41acdef571">5</p></td>
+<td data-local-id=3D"c6df55b0-0559-4771-9abc-1d8748087277" class=3D"conflue=
+nceTd">
+<p local-id=3D"6d7134feb0ca">5</p></td>
+<td data-local-id=3D"1996973a-b57c-4cc4-942b-9a0fc66723c9" class=3D"conflue=
+nceTd">
+<p local-id=3D"768ee7faaa81">5</p></td>
+<td data-local-id=3D"a988859a-02da-4b1a-b460-d35eb295ea7a" class=3D"conflue=
+nceTd">
+<p local-id=3D"0b1807ef2212">5</p></td>
+<td data-local-id=3D"929e87f7-0517-49e5-8042-f7e1af868b03" class=3D"conflue=
+nceTd">
+<p local-id=3D"803766450277"><strong>25</strong></p></td>
+</tr>
+<tr data-local-id=3D"997b6b2c-4fe3-41e9-a09a-80608c610867">
+<td data-local-id=3D"5165a947-5733-45c9-a5e4-896d676b7af4" class=3D"conflue=
+nceTd">
+<p local-id=3D"36125c4499e0">Duplicate manual data entry</p></td>
+<td data-local-id=3D"7d7c4436-e182-44c7-be89-0786abba21c4" class=3D"conflue=
+nceTd">
+<p local-id=3D"2c7bd0bb6038">4</p></td>
+<td data-local-id=3D"270fee65-40e4-42e9-855e-81eeb8d2cfde" class=3D"conflue=
+nceTd">
+<p local-id=3D"122dec3a83ed">4</p></td>
+<td data-local-id=3D"d7352287-e9a1-4867-92df-eb5cabda54f4" class=3D"conflue=
+nceTd">
+<p local-id=3D"e34ffc9c6865">4</p></td>
+<td data-local-id=3D"435d77a2-185a-4b2d-99b4-d57b76d13eed" class=3D"conflue=
+nceTd">
+<p local-id=3D"3253eb0267d7">3</p></td>
+<td data-local-id=3D"32d709f3-a99c-42b0-86ba-ac971c3a658d" class=3D"conflue=
+nceTd">
+<p local-id=3D"82f366e0450e">3</p></td>
+<td data-local-id=3D"14679121-3052-4a86-a5c3-19202d042712" class=3D"conflue=
+nceTd">
+<p local-id=3D"abbf0b31986f"><strong>18</strong></p></td>
+</tr>
+<tr data-local-id=3D"c35f3429-3532-40a1-8f67-972fc3876ee8">
+<td data-local-id=3D"3a0a76d5-7d8a-4089-886f-b74c3eba362b" class=3D"conflue=
+nceTd">
+<p local-id=3D"ea0597ac0277">Inconsistent or outdated records</p></td>
+<td data-local-id=3D"fd1deff6-096a-4fdf-9c76-a1b0dbdc8426" class=3D"conflue=
+nceTd">
+<p local-id=3D"bf9972aad68c">5</p></td>
+<td data-local-id=3D"1137df45-8935-43b1-9bac-fa068319af9c" class=3D"conflue=
+nceTd">
+<p local-id=3D"fe99bf2437cb">4</p></td>
+<td data-local-id=3D"0f173df1-90aa-4f71-bf57-b22ea51a2d54" class=3D"conflue=
+nceTd">
+<p local-id=3D"8639d3bf4624">5</p></td>
+<td data-local-id=3D"a5c90729-3605-4bbf-88a5-4f61cb181523" class=3D"conflue=
+nceTd">
+<p local-id=3D"18ab824740dc">5</p></td>
+<td data-local-id=3D"c958213f-b257-463d-b573-5081d91b7da5" class=3D"conflue=
+nceTd">
+<p local-id=3D"744350bf0760">4</p></td>
+<td data-local-id=3D"5ac428da-3746-47e9-b5ab-97a8ef82880f" class=3D"conflue=
+nceTd">
+<p local-id=3D"c21b631b8aab"><strong>23</strong></p></td>
+</tr>
+<tr data-local-id=3D"344a441e-7b00-4c3f-aa70-7496eb92fe73">
+<td data-local-id=3D"d20e2762-075f-47e7-b808-c598543fe0a0" class=3D"conflue=
+nceTd">
+<p local-id=3D"43f1a32d84de">Slow reporting</p></td>
+<td data-local-id=3D"91bf69f5-3aa6-48c0-bd94-18463fb991c4" class=3D"conflue=
+nceTd">
+<p local-id=3D"40a02c4f0820">4</p></td>
+<td data-local-id=3D"78b64454-977b-4a91-a0f8-eafb5a7e8e45" class=3D"conflue=
+nceTd">
+<p local-id=3D"f578f685e55a">4</p></td>
+<td data-local-id=3D"f6142643-3ad1-4840-aef3-955d33cafe2e" class=3D"conflue=
+nceTd">
+<p local-id=3D"1972236a7d63">4</p></td>
+<td data-local-id=3D"6f4c6488-b712-4420-9ddb-4a55d6b5cd56" class=3D"conflue=
+nceTd">
+<p local-id=3D"64fd7aebec43">3</p></td>
+<td data-local-id=3D"f7b4e78b-f455-437e-822c-1d5ab8a5ecbf" class=3D"conflue=
+nceTd">
+<p local-id=3D"6577bf4c526e">3</p></td>
+<td data-local-id=3D"e6939777-c81b-441c-b1e9-ea7798d89314" class=3D"conflue=
+nceTd">
+<p local-id=3D"8c31f9aeb8c3"><strong>18</strong></p></td>
+</tr>
+<tr data-local-id=3D"6e473771-9920-40fb-96b2-05b8f853732a">
+<td data-local-id=3D"b771ee1f-0d3d-47c1-a737-ae783ed2dc03" class=3D"conflue=
+nceTd">
+<p local-id=3D"f2c83fbe3f8f">Limited operational visibility</p></td>
+<td data-local-id=3D"b49bbf3c-56b6-48fc-8571-4d212166b2de" class=3D"conflue=
+nceTd">
+<p local-id=3D"500c29fcf0f5">5</p></td>
+<td data-local-id=3D"a658ce65-9e28-480a-a3bd-c0968a7234ac" class=3D"conflue=
+nceTd">
+<p local-id=3D"914ce53da0a7">4</p></td>
+<td data-local-id=3D"2cd1017a-7f76-4552-aa2f-2a52aa51fdc5" class=3D"conflue=
+nceTd">
+<p local-id=3D"30efb61a491b">4</p></td>
+<td data-local-id=3D"38e695b7-51aa-4471-ae8b-6ae6015e25c9" class=3D"conflue=
+nceTd">
+<p local-id=3D"7f144983283c">4</p></td>
+<td data-local-id=3D"bca5d650-c3cc-43f7-a67a-f98ca107f5cd" class=3D"conflue=
+nceTd">
+<p local-id=3D"7dbc7fff397b">4</p></td>
+<td data-local-id=3D"56002178-567e-4e58-8259-b93da9e053a8" class=3D"conflue=
+nceTd">
+<p local-id=3D"07b5b4b54cc9"><strong>21</strong></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_0_276007561.1790385770737--

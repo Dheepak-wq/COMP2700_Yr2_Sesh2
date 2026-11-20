@@ -1,0 +1,429 @@
+Date: Sat, 26 Sep 2026 01:23:12 +0000 (UTC)
+Message-ID: <363743591.9.1790385792449@3f030957be1a>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_8_45487667.1790385792449"
+
+------=_Part_8_45487667.1790385792449
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SCRUM-77: Develop project objectives and success criteria</title=
+>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SCRUM-77: Develop project objectives and success criteria</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"dc=
+0153e61529" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"dccef00701d6">
+<th data-local-id=3D"5fc9be08bf6d" class=3D"confluenceTh">
+<p local-id=3D"bf9d8349d198"><strong>Team</strong></p></th>
+<td data-local-id=3D"3ea09b049ca0" class=3D"confluenceTd">
+<p local-id=3D"79116b030ad1"></p></td>
+</tr>
+<tr data-local-id=3D"e5d8a33d5cb1">
+<th data-local-id=3D"b1792bd08286" class=3D"confluenceTh">
+<p local-id=3D"7253bc9432fe"><strong>Timeline</strong></p></th>
+<td data-local-id=3D"5d191b9ec088" class=3D"confluenceTd">
+<p local-id=3D"9a07215be543"></p></td>
+</tr>
+<tr data-local-id=3D"167b0ee6f538">
+<th data-local-id=3D"e08b3b02b7d3" class=3D"confluenceTh">
+<p local-id=3D"cc8872fe57f7"><strong>Related pages</strong></p></th>
+<td data-local-id=3D"8b1edf25600e" class=3D"confluenceTd">
+<p local-id=3D"c76d97ae3bee"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"4e67d3135096"></p>
+<p local-id=3D"145b5b9bc49b"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"full-width" data-local-id=
+=3D"4f511b50bed1" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 256.0px;">
+<col style=3D"width: 204.8px;">
+<col style=3D"width: 102.4px;">
+<col style=3D"width: 102.4px;">
+<col style=3D"width: 102.4px;">
+<col style=3D"width: 256.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"43469085eef9">
+<th data-local-id=3D"ae7bd20af55a" class=3D"confluenceTh">
+<p local-id=3D"153b445d0d2c"><strong>Objectives</strong></p></th>
+<th data-local-id=3D"fa1b9d9ff6c7" class=3D"confluenceTh">
+<p local-id=3D"de0a5157557e"><strong>Key results</strong></p></th>
+<th data-local-id=3D"8cdd58e90911" class=3D"confluenceTh">
+<p local-id=3D"815c673b0c4b"><strong>Owner</strong></p></th>
+<th data-local-id=3D"7f73a97cb7a9" class=3D"confluenceTh">
+<p local-id=3D"c308bbc1caef"><strong>Partner with</strong></p></th>
+<th data-local-id=3D"e51a7a1d1fe7" class=3D"confluenceTh">
+<p local-id=3D"02ba4c1de202"><strong>Expected EoQ key result score</strong>=
+</p></th>
+<th data-local-id=3D"476702754b89" class=3D"confluenceTh">
+<p local-id=3D"c11618f2d282"><strong>Current status</strong></p></th>
+</tr>
+<tr data-local-id=3D"b3a9534c3929">
+<td rowspan=3D"3" data-local-id=3D"178bc2fb2f72" class=3D"confluenceTd">
+<p local-id=3D"c0c88c91ba92"></p>
+<p local-id=3D"b15ab8ab75fc"><strong>Owner: </strong></p>
+<p local-id=3D"84975af74fcb"><strong>End-of-quarter objective score: </stro=
+ng><span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh">0.0-=
+1.0</span></p></td>
+<td data-local-id=3D"65cb7115da97" class=3D"confluenceTd">
+<p local-id=3D"f0776416fd4d"></p></td>
+<td data-local-id=3D"4df2cbe4712f" class=3D"confluenceTd">
+<p local-id=3D"f7ba6fc28b11"></p></td>
+<td data-local-id=3D"3e3f9fc496d1" class=3D"confluenceTd">
+<p local-id=3D"2ca76afb6276"></p></td>
+<td data-local-id=3D"731cf882f1b8" class=3D"confluenceTd">
+<p local-id=3D"172d42705e77"><span class=3D"status-macro aui-lozenge aui-lo=
+zenge-visual-refresh aui-lozenge-success">1.0</span></p></td>
+<td data-local-id=3D"fa654095bfb2" class=3D"confluenceTd">
+<p local-id=3D"d4b92ddff387"><strong>Month 1</strong></p>
+<p local-id=3D"41de1d9c4f2c"></p>
+<p local-id=3D"c663603bb09f"><strong>Month 2</strong></p>
+<p local-id=3D"7f32f53ed8b0"></p>
+<p local-id=3D"55ab275ca0f5"><strong>Month 3</strong></p>
+<p local-id=3D"3a61a3489c31"></p></td>
+</tr>
+<tr data-local-id=3D"6df9c3ffb59b">
+<td data-local-id=3D"1b255f9f7914" class=3D"confluenceTd">
+<p local-id=3D"a2f9061356d5"></p></td>
+<td data-local-id=3D"9971d56f7bbd" class=3D"confluenceTd">
+<p local-id=3D"00b367760bd7"></p></td>
+<td data-local-id=3D"ed0cee14ca8d" class=3D"confluenceTd">
+<p local-id=3D"b451188f7324"></p></td>
+<td data-local-id=3D"bd489b2d20d0" class=3D"confluenceTd">
+<p local-id=3D"738c58f3bad8"></p></td>
+<td data-local-id=3D"e7ecf7b0be36" class=3D"confluenceTd">
+<p local-id=3D"2684843457d9"></p></td>
+</tr>
+<tr data-local-id=3D"3d75aa642378">
+<td data-local-id=3D"57251b537c17" class=3D"confluenceTd">
+<p local-id=3D"ec15ca17e603"></p></td>
+<td data-local-id=3D"5a4000b60e08" class=3D"confluenceTd">
+<p local-id=3D"6f7429d86b31"></p></td>
+<td data-local-id=3D"3b946d67604e" class=3D"confluenceTd">
+<p local-id=3D"ad9cb2fb71d7"></p></td>
+<td data-local-id=3D"d4802886acc4" class=3D"confluenceTd">
+<p local-id=3D"4c6933fcb485"></p></td>
+<td data-local-id=3D"faf88a642ab5" class=3D"confluenceTd">
+<p local-id=3D"96856296f610"></p></td>
+</tr>
+<tr data-local-id=3D"dafb4a182f3f">
+<td rowspan=3D"3" data-local-id=3D"a900f7046590" class=3D"confluenceTd">
+<p local-id=3D"5ddcc630f6ba"></p></td>
+<td data-local-id=3D"9824b3736a42" class=3D"confluenceTd">
+<p local-id=3D"9cd2d23e34b5"></p></td>
+<td data-local-id=3D"877168e784c8" class=3D"confluenceTd">
+<p local-id=3D"a7b6935a387c"></p></td>
+<td data-local-id=3D"ceea9454209d" class=3D"confluenceTd">
+<p local-id=3D"68f8fabfe473"></p></td>
+<td data-local-id=3D"cfce93101c04" class=3D"confluenceTd">
+<p local-id=3D"c34503dc90ba"></p></td>
+<td data-local-id=3D"40f1c293b907" class=3D"confluenceTd">
+<p local-id=3D"f12e80e08e1e"></p></td>
+</tr>
+<tr data-local-id=3D"5e809a178ccd">
+<td data-local-id=3D"c652c3c7900d" class=3D"confluenceTd">
+<p local-id=3D"38e4426f20d4"></p></td>
+<td data-local-id=3D"0f6a6cbcacb3" class=3D"confluenceTd">
+<p local-id=3D"89ff42a43208"></p></td>
+<td data-local-id=3D"8c89050aaafa" class=3D"confluenceTd">
+<p local-id=3D"a4eb0de1ad9d"></p></td>
+<td data-local-id=3D"d041c0eb1bc1" class=3D"confluenceTd">
+<p local-id=3D"c56187fdf524"></p></td>
+<td data-local-id=3D"619bd3d087e9" class=3D"confluenceTd">
+<p local-id=3D"b0eccc15f513"></p></td>
+</tr>
+<tr data-local-id=3D"03251d9ae391">
+<td data-local-id=3D"7b1c6d268c00" class=3D"confluenceTd">
+<p local-id=3D"3099888d0cde"></p></td>
+<td data-local-id=3D"f2783a04250b" class=3D"confluenceTd">
+<p local-id=3D"2de3bae12e56"></p></td>
+<td data-local-id=3D"532aeb890ea7" class=3D"confluenceTd">
+<p local-id=3D"9bb4463eb0cb"></p></td>
+<td data-local-id=3D"729151120ad9" class=3D"confluenceTd">
+<p local-id=3D"e48571d18b1e"></p></td>
+<td data-local-id=3D"a0a932c3af64" class=3D"confluenceTd">
+<p local-id=3D"6525e760ff8b"></p></td>
+</tr>
+<tr data-local-id=3D"c8c5b6662adf">
+<td rowspan=3D"3" data-local-id=3D"d657d1713446" class=3D"confluenceTd">
+<p local-id=3D"39e9b5ff2d45"></p></td>
+<td data-local-id=3D"afe302a7024c" class=3D"confluenceTd">
+<p local-id=3D"4311091dc50a"></p></td>
+<td data-local-id=3D"979155c3f32a" class=3D"confluenceTd">
+<p local-id=3D"febaa267d856"></p></td>
+<td data-local-id=3D"b603a0d14e1e" class=3D"confluenceTd">
+<p local-id=3D"81fa180bff4d"></p></td>
+<td data-local-id=3D"b337222bb692" class=3D"confluenceTd">
+<p local-id=3D"ff4d446384a6"></p></td>
+<td data-local-id=3D"c2c2d2517c5e" class=3D"confluenceTd">
+<p local-id=3D"3a727e883c1b"></p></td>
+</tr>
+<tr data-local-id=3D"301e33553c0b">
+<td data-local-id=3D"904cde3910e6" class=3D"confluenceTd">
+<p local-id=3D"8e2ca4c3c2a7"></p></td>
+<td data-local-id=3D"9be86356a4f2" class=3D"confluenceTd">
+<p local-id=3D"eec808a98f9d"></p></td>
+<td data-local-id=3D"ea27fe838b27" class=3D"confluenceTd">
+<p local-id=3D"a04cb8d83a26"></p></td>
+<td data-local-id=3D"5d774b167156" class=3D"confluenceTd">
+<p local-id=3D"7583690fb58b"></p></td>
+<td data-local-id=3D"a55faa57c35e" class=3D"confluenceTd">
+<p local-id=3D"4438c3fd4430"></p></td>
+</tr>
+<tr data-local-id=3D"fd7fdf5400df">
+<td data-local-id=3D"8baa647dbc28" class=3D"confluenceTd">
+<p local-id=3D"afa8364a4ad8"></p></td>
+<td data-local-id=3D"8f6b9bd761e6" class=3D"confluenceTd">
+<p local-id=3D"d632d2fee3a6"></p></td>
+<td data-local-id=3D"05a0f20bbd84" class=3D"confluenceTd">
+<p local-id=3D"049f8a249143"></p></td>
+<td data-local-id=3D"aeb53a30b446" class=3D"confluenceTd">
+<p local-id=3D"b38da5a638ca"></p></td>
+<td data-local-id=3D"674768f231b1" class=3D"confluenceTd">
+<p local-id=3D"6d4615b01727"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"a97bc04f36f2">For OKR pro tips from Atlassian teams visit: <=
+a class=3D"external-link" href=3D"https://www.atlassian.com/team-playbook/p=
+lays/okrs" rel=3D"nofollow">https://www.atlassian.com/team-playbook/plays/o=
+krs</a></p>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_8_45487667.1790385792449--
