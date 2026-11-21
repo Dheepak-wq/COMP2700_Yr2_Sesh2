@@ -1,0 +1,462 @@
+WEBVTT
+
+1
+00:00:02.980 --> 00:00:09.989
+Matthew Mansour: Okay, well, hi everyone, and welcome to a little bit of a discussion on the Confluence Basics.
+
+2
+00:00:09.990 --> 00:00:24.799
+Matthew Mansour: If you watched the week 3 video slash a little bit of help, it was all about the idea of helping you with Jira, and from all counts, looks like a lot of you were able to do that. No offense, but for those people who just think that they'll gamble.
+
+3
+00:00:25.060 --> 00:00:31.459
+Matthew Mansour: fine, gamble. But everyone is trying to help you out, that's why we have SGTAs, that's why we have a lecture.
+
+4
+00:00:31.770 --> 00:00:44.579
+Matthew Mansour: It's called professional practice, so the more that you ignore coming to class, the more you're ignoring your future employment. That's how I see it. Remember, I work in industry, so I'm telling you the truth, and I feel sorry for some of you, because I think you're going to get the harsh reality.
+
+5
+00:00:44.590 --> 00:00:56.259
+Matthew Mansour: Don't email me later on about how you got a job and you didn't do anything. You're one in a million, okay? For most of you, it's about really making sure that you're comfortable with everything that you can do. So…
+
+6
+00:00:56.400 --> 00:00:58.549
+Matthew Mansour: First things first, why does this all matter?
+
+7
+00:00:59.240 --> 00:01:09.180
+Matthew Mansour: It's important that you have a way of documenting everything that you do. JIRA is great, because JIRA is actually showing you, obviously, all of the things that you're going to do in each sprint.
+
+8
+00:01:09.310 --> 00:01:17.149
+Matthew Mansour: But then you need to have some documentation to back you up. And Confluence is your share document. So, just like Google Doc.
+
+9
+00:01:17.560 --> 00:01:35.840
+Matthew Mansour: or using maybe Microsoft Teams, or something of that nature, the same principle applies. The nice thing about Confluence and Jira is same family. So, just like Office, when you use Word and Excel, don't use that exactly as a… but just to make it easy for you to understand, same family, same principle here.
+
+10
+00:01:36.100 --> 00:02:00.830
+Matthew Mansour: And so, I'll show you a few things on how to link it and all this type of stuff. I might have not been doing it exactly in the same order, but as I go through things, I naturally will be covering these things as well. It'll be a lot shorter video than what we did with the JIRA, because there's less to show you. And, to be honest, I want you to explore with your team, as opposed to me hand-holding you, because you're in second year, not first year, so we expect that you'll be a little bit more
+
+11
+00:02:00.830 --> 00:02:04.369
+Matthew Mansour: mature, a little bit, than you were in first year.
+
+12
+00:02:04.370 --> 00:02:16.580
+Matthew Mansour: Alright, so, let's get out of here, and let's go straight here. So, obviously, this is my test team from last week. I haven't done anything, so they're… that's the other cool thing. You'll notice it will warn you when there are things overdue.
+
+13
+00:02:16.750 --> 00:02:36.450
+Matthew Mansour: That means things that haven't been completed. So, just, remember that from that perspective as well. I'm just mucking around with stuff as well. And then, obviously, my backlog that we were discussing previously as well. Alright, so I've explained some of these tabs up here, and the one tab that I want you to go to is the Docs tab. So if you click on here.
+
+14
+00:02:37.650 --> 00:02:40.019
+Matthew Mansour: Not on the three dots, but on the docs itself.
+
+15
+00:02:40.360 --> 00:02:47.499
+Matthew Mansour: you should probably get something like this. If you don't, that probably means that you've tried to create something before, and hey, I'm not
+
+16
+00:02:47.500 --> 00:03:01.240
+Matthew Mansour: in control of what you've tried to experiment with and things, so it's on you to try and work out what you've done wrong. So, you've got two options here. You can create, as it says, connect the Confluence space or content item. That means that you've already created your Confluence page.
+
+17
+00:03:01.750 --> 00:03:07.659
+Matthew Mansour: Or, we can create a brand new one. Let's play dumb, let's create a new Confluence page. So I click here.
+
+18
+00:03:07.840 --> 00:03:10.179
+Matthew Mansour: And I'm going to call it…
+
+19
+00:03:10.440 --> 00:03:14.129
+Matthew Mansour: What was it? Matt's… oh, Matt.
+
+20
+00:03:14.350 --> 00:03:18.209
+Matthew Mansour: Test team… If I could spell…
+
+21
+00:03:22.620 --> 00:03:25.489
+Matthew Mansour: Okay, and I'm just gonna click Create.
+
+22
+00:03:28.830 --> 00:03:38.369
+Matthew Mansour: So, it's gonna say there's nothing here, so let's create a page. There are some templates, so it can generate a project plan. So, the other cool thing…
+
+23
+00:03:38.650 --> 00:03:57.149
+Matthew Mansour: Some of you probably know this, it's called Ask Rovo, and that's the other thing to also highlight, that we didn't have that back in the day when I first started using Jira, so AI is obviously embedded into Jira as well, so you've got a little bit of a helping hand. There's heaps and heaps of templates that you can use. But let's just do it for now, a basic page. I'm going to click Create Page.
+
+24
+00:03:58.050 --> 00:04:00.760
+Matthew Mansour: So you have spaces and pages inside them.
+
+25
+00:04:01.410 --> 00:04:05.100
+Matthew Mansour: take a little while, so I'll just let it do its thing. I might just pause while we're…
+
+26
+00:04:06.100 --> 00:04:12.569
+Matthew Mansour: Waiting for it to… It's already there. So, I might create my first page.
+
+27
+00:04:21.490 --> 00:04:22.680
+Matthew Mansour: If I could spill.
+
+28
+00:04:28.680 --> 00:04:29.790
+Matthew Mansour: Okay?
+
+29
+00:04:30.160 --> 00:04:38.419
+Matthew Mansour: And it's gonna say, you know, it's gonna tell you all these other cool things that you can do. So there are things down here that you can look at. These are templates, so I might just click on All Templates.
+
+30
+00:04:39.060 --> 00:04:55.550
+Matthew Mansour: And you can start to look at… see, there's lots of cool little templates that you can have there, that you can play with. So, you can flag some of them and highlight them for yourself as an asterisk. So, sprint planning, I might, like, want to keep on that one. Maybe the retro one, maybe meetings.
+
+31
+00:04:55.850 --> 00:05:04.409
+Matthew Mansour: Five Whys. Five whys is a really good way of trying to get things. If you watch the blog, Chaz and I talk about the five whys.
+
+32
+00:05:06.780 --> 00:05:19.839
+Matthew Mansour: Probably no meeting. Anyway, I'm not here to get you to look at all the templates and me and you, but there's so many. You can see I'm just scrolling and scrolling and scrolling, and there's lots and lots of different templates out there that you can do,
+
+33
+00:05:19.890 --> 00:05:27.300
+Matthew Mansour: even an introductory blog, for goodness sake. So there's lots… even for pricing. So, I'm just gonna…
+
+34
+00:05:27.700 --> 00:05:29.760
+Matthew Mansour: I'll highlight those ones for myself.
+
+35
+00:05:30.170 --> 00:05:32.830
+Matthew Mansour: And maybe I'll just grab the sprint planning one.
+
+36
+00:05:34.010 --> 00:05:39.999
+Matthew Mansour: And voila, looks like you've done some work now. It can show you a tutor and say, look what we did already.
+
+37
+00:05:40.220 --> 00:05:44.159
+Matthew Mansour: But this kind of gives you an idea of what you could be putting in there.
+
+38
+00:05:44.160 --> 00:06:00.480
+Matthew Mansour: your team members you can muck around with, it kind of gives you the sprint planning. It does so much of the work for you that it just makes life a lot easier, especially from this. Even look like… it looks… even then, it creates a table of contents so that you can pop down.
+
+39
+00:06:00.480 --> 00:06:03.559
+Matthew Mansour: And see all of the information you're creating as well.
+
+40
+00:06:03.560 --> 00:06:15.559
+Matthew Mansour: So that's the part that you can do. You can then edit this and obviously change it around, so if you wanted to change it from, you know, meetings to every person meeting. And then once you're happy, you can click on Publish.
+
+41
+00:06:16.740 --> 00:06:29.389
+Matthew Mansour: And that means that all members will be able to see it. So, as it says, your page has been published, it's just taking time, obviously, to process, so let it do its magic, and then you can have a look at it. So, once you see that.
+
+42
+00:06:29.420 --> 00:06:42.409
+Matthew Mansour: it's a matter of just doing, you know, going through the motions. You could also import stuff as well, so that's something I'll show you a bit later as well. Let me just get rid of myself, I don't really want to see myself, but that way I can go away, Matt.
+
+43
+00:06:43.490 --> 00:06:50.059
+Matthew Mansour: Thank you. And then you can import stuff. You can share this with other people, so it doesn't just have to be the members, it can be anyone.
+
+44
+00:06:50.320 --> 00:07:02.749
+Matthew Mansour: And you can edit the page as well. Now, you notice up here in the left-hand corner this idea of opening with Confluence. Let's see what happens, and if it happens to be that it's going to ask you what I think it will ask you, I will show you how to fix that up as well.
+
+45
+00:07:06.470 --> 00:07:07.760
+Matthew Mansour: Okay, we didn't.
+
+46
+00:07:08.020 --> 00:07:19.489
+Matthew Mansour: If, by chance, it does go through the motions of upgrading you, so I might try and force it to pretend I want to upgrade, of course, because I'm showing you guys now, it's not going to do this.
+
+47
+00:07:19.610 --> 00:07:30.250
+Matthew Mansour: But I might get, you know, your tutors to show you, but the idea is that sometimes it will pop up and say, you should upgrade. Okay, so I might just force it now.
+
+48
+00:07:31.080 --> 00:07:34.400
+Matthew Mansour: I don't know, like I said, I'm learning, because I'm… I…
+
+49
+00:07:34.700 --> 00:07:42.960
+Matthew Mansour: all the places I work for, we pay for it, so I'm just trying to see what will happen from the trial perspective. But, get everyone in this tool, maybe later.
+
+50
+00:07:43.440 --> 00:07:51.419
+Matthew Mansour: I wonder if I can just click on upgrade again. Let's try it now. Okay, so maybe this will… okay, so I do want to get to the billing console. So…
+
+51
+00:07:51.610 --> 00:08:07.749
+Matthew Mansour: it should pop up with an ad. Remember, they've got to make money, right? As much as you guys are using the free one, they want to try to make money out of me and you. So you might get something like this, and then it'll warn you about, you know, do you want to do… I don't want to try Loom. Loom is to make videos, so let's just say maybe later.
+
+52
+00:08:07.880 --> 00:08:20.820
+Matthew Mansour: So right now, it says your standard trial has started, okay, and it will give you this idea about, you know, whether you want to be upgrading or anything like that. I didn't have this come up.
+
+53
+00:08:21.270 --> 00:08:23.920
+Matthew Mansour: But it did come up. I just clicked close, by the way.
+
+54
+00:08:24.620 --> 00:08:40.499
+Matthew Mansour: And so what will happen is you'll get to this subscription section. This is all you have to remember, that if you get to this section, and it says you're starting your 21-day trial, don't stress, don't add any payment method, okay? This is very important. Just click on change plan.
+
+55
+00:08:40.500 --> 00:08:51.980
+Matthew Mansour: And if you get lost, just Google it, or GPT it, or Claude it, and just work out how to get to this sector section. It's under subscriptions, and just click on change plan.
+
+56
+00:08:51.980 --> 00:09:04.770
+Matthew Mansour: And when you get to change plan, because this happened to me, so I was like, oh, you can just… at the moment, we're here, right? Or it might offer you premium. Whatever it offers you, right? It might offer you something. Just go back and select the free one.
+
+57
+00:09:05.480 --> 00:09:11.660
+Matthew Mansour: it'll go through some motions of saying, are you sure? Well, that's what happened to me before, so it's a good time to do that.
+
+58
+00:09:11.660 --> 00:09:27.379
+Matthew Mansour: And then just say downgrade. Okay, so that's what you've got to… again, you guys can work it out for yourself, but I'm just showing you because it happened, and I don't want anyone to be emailing me when the answer is there. So just to go downgrade, tell them why, I don't know, too expensive.
+
+59
+00:09:27.650 --> 00:09:28.940
+Matthew Mansour: And click Submit.
+
+60
+00:09:32.400 --> 00:09:35.819
+Matthew Mansour: Mind you, Macquarie's trying to get a license. It's not going to happen this year.
+
+61
+00:09:36.110 --> 00:09:45.170
+Matthew Mansour: It just takes time, so we don't have any of this stuff happening, because there's more than one unit that uses, JIA and Confluence. So click close.
+
+62
+00:09:48.420 --> 00:09:55.109
+Matthew Mansour: And now you're back to the free plan. So, it will say free, and you will notice that it will stay that way. So…
+
+63
+00:09:55.910 --> 00:10:13.450
+Matthew Mansour: in language, you can understand, happy days, it's all good. So now, let's just go, because you're in admin, okay? So I might just go back now to my Confluence page. Let's hope that it doesn't say, do it again, because then I'm in an internal loop of trying to do the subscriptions, and I don't want to be in that. No, it didn't.
+
+64
+00:10:13.610 --> 00:10:23.539
+Matthew Mansour: So, you're back here, okay, and you can see that you can select things, getting started with Confluence, so you can create a page, set up a team space, all those things we had before.
+
+65
+00:10:23.740 --> 00:10:34.810
+Matthew Mansour: I might pick up where I left off, remember? We already did this, so I'm just going to click over here. It's telling you that you can create more than one page. You don't have to be going back to that test page, but I'm going to go back here anyway.
+
+66
+00:10:35.420 --> 00:10:37.689
+Matthew Mansour: Because that's what we were designing, remember?
+
+67
+00:10:38.190 --> 00:10:42.679
+Matthew Mansour: And this is where I'm at at the moment. So, if I want to create another page.
+
+68
+00:10:42.830 --> 00:10:55.019
+Matthew Mansour: Okay, I can click Create, and if I want to start from a template, I can do that, or I can make a live board, or a whiteboard, or anything you like. So I might actually just start from another template.
+
+69
+00:10:55.190 --> 00:10:58.750
+Matthew Mansour: And let's see, what would I like to do?
+
+70
+00:10:58.950 --> 00:11:01.840
+Matthew Mansour: Yeah, let's do product requirements.
+
+71
+00:11:04.390 --> 00:11:13.539
+Matthew Mansour: And there you go. It looks so, GPT-like with all of the emoticons. But, at least now you know that you've created two pages.
+
+72
+00:11:13.610 --> 00:11:31.139
+Matthew Mansour: Okay, and obviously you can rename the page if you want to, and that'll be important to be able to do. You can also be able to share it with others as well, and get people to be able to see what it's like. Also, if you want to delete it, you can obviously click here on the three dots, and select delete as well.
+
+73
+00:11:31.140 --> 00:11:37.709
+Matthew Mansour: And then, of course, like everything, if you just hover over it, you can rename it, and I can call it something else.
+
+74
+00:11:37.720 --> 00:11:42.659
+Matthew Mansour: Oh, this was a live doc I made before, but yeah, let's just say product overview.
+
+75
+00:11:43.840 --> 00:11:45.509
+Matthew Mansour: Altab would be probably good.
+
+76
+00:11:45.800 --> 00:11:47.589
+Matthew Mansour: So, product…
+
+77
+00:11:51.570 --> 00:12:08.510
+Matthew Mansour: By the way, I'm doing everything live, so don't judge me if everything doesn't look perfect, or you're gonna say something. I'm doing this as a favor to you, because, again, there's so much out there that you could be using yourself without using some average video of maths. So that's just all I'm going to say. So now, you'll see that you've got a couple different pages.
+
+78
+00:12:08.590 --> 00:12:15.680
+Matthew Mansour: Okay, so product requirements… We haven't done any… we haven't added any product requirements, so you can add them in yourself.
+
+79
+00:12:18.820 --> 00:12:39.179
+Matthew Mansour: Okay, and then be able to explain what they are. You can see that I've got, like, a little tab there, so then you've got the different parts that you can create, etc. You can use a blog, you can create a calendar, okay, there's a whole stack of stuff that you can do as well. Careful with the any free stuff. I think the calendar is also a trick to get you to spend more money.
+
+80
+00:12:39.180 --> 00:12:47.040
+Matthew Mansour: So just be wary of that stuff. Anytime, you know, try for free, you know what that means. To try for free with a diamond means, hey, we're gonna charge you more money.
+
+81
+00:12:47.270 --> 00:13:02.410
+Matthew Mansour: So, if anything, you've got now some things that you can do here, and you can be able to edit the page as well. Over here, you've got a comment section, so people can add a comment. So, if I wanted to add a comment and say, you know.
+
+82
+00:13:06.750 --> 00:13:07.920
+Matthew Mansour: If I could spell.
+
+83
+00:13:10.230 --> 00:13:25.770
+Matthew Mansour: So you could leave comments for each other once you created the space as well. Now, obviously, at the moment, it's just me. You're going to be creating it as a team, so you might want to be able to think about it. By the way, edit means that I can edit the actual page.
+
+84
+00:13:25.770 --> 00:13:34.399
+Matthew Mansour: But if I want to share this with my team, I could literally click share, okay, and I can then add each member that I want to join.
+
+85
+00:13:34.840 --> 00:13:52.879
+Matthew Mansour: If you want to use Slack, for some of you, as your tool to be able to communicate with each other on… as an app, you can do that as well, because Slack is now owned by our friends at Lassian. You could also, use Teams, you can use anything you like, but the main thing is that we want you to be able to feel comfortable
+
+86
+00:13:52.880 --> 00:13:57.330
+Matthew Mansour: in being able to use it. Over here, you'll see on the left here, this idea of spaces.
+
+87
+00:13:57.530 --> 00:14:05.810
+Matthew Mansour: I've got at the moment a couple, but the ones that I'm using really is my internship, which is the one that we've been looking at. Here's my main page, in case you didn't see yours.
+
+88
+00:14:06.270 --> 00:14:25.600
+Matthew Mansour: And you can be able to edit that and play around with it yourself. This one's going to be a lot more about you mucking around and playing with it, as opposed to a step-by-step guide. And if you ever get lost and go, how do I know that if I'm in Jira or not, or Confluence, you'll know over here. You can always click over here and go back to Jira.
+
+89
+00:14:30.870 --> 00:14:44.479
+Matthew Mansour: And there we are. No, no big, shocks for anyone, but you're back in JIRA now, you're back in your original area as well, and so you can see your backlog, etc, your board.
+
+90
+00:14:44.480 --> 00:14:57.699
+Matthew Mansour: And all the things. So now I'm back mucking around with Jira, okay? So, remember, I've got two tabs now open, so I've got the ability to be able to use… and you can see the logo, right? So, you've got, obviously, your board.
+
+91
+00:14:57.920 --> 00:15:14.939
+Matthew Mansour: And then you've got, obviously, your JIRA… sorry, you've got your JIA board, and then you've got, obviously, your Confluence's pages that you can have as well. Play around with as much as you can when it comes to using it, okay, so that you get comfortable around it as well. So again, if you want to create something.
+
+92
+00:15:15.000 --> 00:15:25.119
+Matthew Mansour: Click on Create, and you'll notice that the Create button creates different stuff to what we have. Obviously, if I go to the Jira board and click Create.
+
+93
+00:15:25.160 --> 00:15:39.930
+Matthew Mansour: it's going to create an epic, or I can create a story, or something. So it's the same style, it's just like when we talk about Word and Excel. It's got the same formatting, but does different things. This one's all about documentation. So if you click here and then say, hey, create a database.
+
+94
+00:15:40.860 --> 00:15:55.539
+Matthew Mansour: you could create a database. So, again, it says, do you, do you want to move to this space and own it yourself? Okay, you can click on move to the space or leave it as is. And here we are, you can create a template, make it look beautiful.
+
+95
+00:15:55.990 --> 00:16:03.740
+Matthew Mansour: Okay, whatever you want to do. You muck around with it, you get the idea what I'm doing, okay? So I'm just looking at product requirements, this is stuff that we had before.
+
+96
+00:16:03.850 --> 00:16:07.770
+Matthew Mansour: And I'm just adding things. So I could add a table in here as well.
+
+97
+00:16:09.370 --> 00:16:27.470
+Matthew Mansour: And be able to do all the calculations and so on as well. Anyway, different templates, different things you can do, and that will give you the basics of it as well. If anything, you will appreciate that you can make as many tabs as you want, and then the idea is that with the assessment.
+
+98
+00:16:27.810 --> 00:16:51.800
+Matthew Mansour: I'm going to give you some things to do. Like, one of the first things I'm going to ask you to do is create what we call a project charter. And that project charter will be something of a contract between you and the client, and cover the things like basic requirements, the costings, which you'll make up, all those kind of things. And that will be one of your tabs here. So you could call that, you know, project charter. And then you could have another one for, say.
+
+99
+00:16:51.800 --> 00:17:00.819
+Matthew Mansour: requirements gathering, and you do all of those things. Remember, the whole idea of the project for you guys is that you've got another team that's building the product.
+
+100
+00:17:00.820 --> 00:17:08.390
+Matthew Mansour: You guys are doing all the project work. You won't be building anything, because this unit is not that. You've got other units to do all that kind of stuff for, as well.
+
+101
+00:17:09.109 --> 00:17:17.610
+Matthew Mansour: Okay, so, just because of my checking, checking, so why it matters, we understand that it's important because it allows you to link up with JIRA.
+
+102
+00:17:17.609 --> 00:17:39.310
+Matthew Mansour: I kind of gave you a really quick space tour of what it is. Remember, the idea of having a space is different to a page, because you can have pages. I showed you how to make some basic templates, okay? I'm just making sure I'm ticking off what I wanted to show you. We've linked it to Jira. We did that through JIRA. Remember the way that we did that, just popping back this way.
+
+103
+00:17:40.020 --> 00:17:42.659
+Matthew Mansour: was in my board, I went to my docs.
+
+104
+00:17:44.390 --> 00:17:50.249
+Matthew Mansour: It loads, and then I linked it that way. Remember, it came up with an option, so I've done that already.
+
+105
+00:17:51.550 --> 00:18:08.450
+Matthew Mansour: Oh, yeah, so the way I would work this, if I was in your group, is one space per team, use the templates instead of just using a blank page, which you'll all love, because it's all done for you. You love GPT and Claude, so Perplexity and everything else, so why not have it all done?
+
+106
+00:18:08.560 --> 00:18:20.309
+Matthew Mansour: Link back to your decisions, so linking it back to what you do in Jira. I'm gonna leave that for you and your team, you're gonna do something. And just keep notes. I'd have a notes section, so one of those tabs.
+
+107
+00:18:22.450 --> 00:18:32.849
+Matthew Mansour: In Confluence, remember? You always will know where you are, because it will say what product you're using. I'd create one called Meeting Minutes, and just keep a log of things that you're doing as well.
+
+108
+00:18:33.060 --> 00:18:44.760
+Matthew Mansour: And so that way, you'll have an idea of what you're dealing with as well. So I think that that's pretty cool to do. Hey, it's even created some user stories for you with that template, so that's pretty nice as well. So,
+
+109
+00:18:44.760 --> 00:18:49.200
+Matthew Mansour: yeah, I think that that will help you as well. And…
+
+110
+00:18:49.200 --> 00:19:09.950
+Matthew Mansour: I did the last thing I wanted to do was avoiding charges. Just remember to downgrade, okay? So that's the key word, in case it asks you to upgrade. So if it asks you to upgrade, don't freak out, it won't ask… it may ask you for credit card details, but there'll be an option not to put anything in. We had a couple groups who paid a couple bucks, it's not too bad, but they just still have to pay, so just be conscious of that also.
+
+111
+00:19:10.240 --> 00:19:20.130
+Matthew Mansour: And I think, my friends, that's what I wanted to cover for this video. Like I said, there's heaps and heaps of stuff out there on YouTube, and also through Atlassian to be able to help you.
+
+112
+00:19:20.300 --> 00:19:26.919
+Matthew Mansour: Step by step, and hopefully you'll be doing this in your SGTAs with your TA, or your tutor.
+
+113
+00:19:27.200 --> 00:19:38.039
+Matthew Mansour: Alright, I think I'm done. Thanks, everyone. Side comment, week 5 is next week, or the week after 4, obviously. We're gonna create the groups officially.
+
+114
+00:19:38.280 --> 00:19:54.050
+Matthew Mansour: And then in week 6, we will release the assignment. You won't start the sprint, but you'll be able to prepare for the sprint, right? So think of week 6 like Sprint 0, and then you'll start in week 7, your first sprint, and you can start putting all of the documentation together, etc.
+
+115
+00:19:54.490 --> 00:19:58.270
+Matthew Mansour: Alright, I'm done. Thanks, everyone. Take care. Bye-bye.
+
